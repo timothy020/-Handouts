@@ -158,7 +158,11 @@ accsstoken包含如下内容：
 
 
 
+**redis的作用**：缓存和获取token
 
+- 缓存token：登录时创建accessToken后就加入redis缓存，设置过期时间`createOAuth2AccessToken`
+- 携带token的调用来到时，`security:cone:filter:TokenAuthenticationFileter`过滤器优先从redis获取token
+- 登出时：从redis中删除accessToken（在数据库中也会删除accessToken和refreshToken)
 
 ## 功能权限
 
@@ -584,7 +588,23 @@ TenantContextHolder只在一个线程中可以获取，无法跨线程
 
 
 
+## MybatisPlus
 
+### 大纲
+
+![image-20240512134907061](C:\Users\Timothy\AppData\Roaming\Typora\typora-user-images\image-20240512134907061.png)
+
+
+
+![image-20240512135413974](C:\Users\Timothy\AppData\Roaming\Typora\typora-user-images\image-20240512135413974.png)
+
+- 字段填充：creator,updator,create_time,update_time
+- 类型处理器：typeHandler（加密，JcksonTypeHandler）
+- 插件：tenant_id
+- querry封装
+- 联表查询
+- mapper封装
+- [多数据源，分布式事务]
 
 ## Tricks
 
