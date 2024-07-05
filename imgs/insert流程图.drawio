@@ -1,0 +1,114 @@
+<mxfile host="Electron" modified="2024-05-29T16:48:38.811Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="6cFmcCHs3L80L4Oev-8d" version="24.2.5" type="device">
+  <diagram name="第 1 页" id="VroQPfxVDlyuiFUq9wsT">
+    <mxGraphModel dx="1098" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yC8EA-d1KbzV76l94_GZ-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yC8EA-d1KbzV76l94_GZ-1" target="yC8EA-d1KbzV76l94_GZ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yC8EA-d1KbzV76l94_GZ-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="272.5" y="30" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yC8EA-d1KbzV76l94_GZ-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yC8EA-d1KbzV76l94_GZ-4" target="yC8EA-d1KbzV76l94_GZ-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yC8EA-d1KbzV76l94_GZ-4" value="计算插入位置所处的叶子结点&lt;div style=&quot;font-size: 10px;&quot;&gt;originLeaf&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="235" y="83" width="165" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yC8EA-d1KbzV76l94_GZ-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yC8EA-d1KbzV76l94_GZ-8" target="yC8EA-d1KbzV76l94_GZ-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yC8EA-d1KbzV76l94_GZ-66" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yC8EA-d1KbzV76l94_GZ-49">
+          <mxGeometry x="-0.5168" y="-1" relative="1" as="geometry">
+            <mxPoint x="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yC8EA-d1KbzV76l94_GZ-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yC8EA-d1KbzV76l94_GZ-8" target="yC8EA-d1KbzV76l94_GZ-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yC8EA-d1KbzV76l94_GZ-65" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yC8EA-d1KbzV76l94_GZ-60">
+          <mxGeometry x="-0.782" y="-2" relative="1" as="geometry">
+            <mxPoint x="6" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yC8EA-d1KbzV76l94_GZ-8" value="originLeaf == null ?" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="241.25" y="200" width="152.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yC8EA-d1KbzV76l94_GZ-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yC8EA-d1KbzV76l94_GZ-17" target="yC8EA-d1KbzV76l94_GZ-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yC8EA-d1KbzV76l94_GZ-68" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yC8EA-d1KbzV76l94_GZ-52">
+          <mxGeometry x="-0.4368" y="2" relative="1" as="geometry">
+            <mxPoint x="11" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yC8EA-d1KbzV76l94_GZ-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yC8EA-d1KbzV76l94_GZ-17" target="yC8EA-d1KbzV76l94_GZ-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yC8EA-d1KbzV76l94_GZ-67" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yC8EA-d1KbzV76l94_GZ-63">
+          <mxGeometry x="-0.7704" y="2" relative="1" as="geometry">
+            <mxPoint x="-4" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yC8EA-d1KbzV76l94_GZ-17" value="index∈&amp;nbsp;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;[ 0,&amp;nbsp;&lt;/span&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;originLeaf.getRealCapacity ) ?&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="210" y="330" width="215" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yC8EA-d1KbzV76l94_GZ-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yC8EA-d1KbzV76l94_GZ-37" target="yC8EA-d1KbzV76l94_GZ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yC8EA-d1KbzV76l94_GZ-37" value="新建需要插入的叶子结点 insertLeaf" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="235" y="140" width="165" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yC8EA-d1KbzV76l94_GZ-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yC8EA-d1KbzV76l94_GZ-38" target="yC8EA-d1KbzV76l94_GZ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yC8EA-d1KbzV76l94_GZ-38" value="弹栈，得到叶子结点中插入的位置下标index" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="235" y="270" width="165" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yC8EA-d1KbzV76l94_GZ-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yC8EA-d1KbzV76l94_GZ-39" target="yC8EA-d1KbzV76l94_GZ-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="630" />
+              <mxPoint x="317" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yC8EA-d1KbzV76l94_GZ-39" value="插入到根节点" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="380" y="400" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yC8EA-d1KbzV76l94_GZ-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yC8EA-d1KbzV76l94_GZ-41" target="yC8EA-d1KbzV76l94_GZ-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yC8EA-d1KbzV76l94_GZ-41" value="originLeaf与其前驱后继的关系" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="235" y="460" width="165" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yC8EA-d1KbzV76l94_GZ-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yC8EA-d1KbzV76l94_GZ-42" target="yC8EA-d1KbzV76l94_GZ-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yC8EA-d1KbzV76l94_GZ-42" value="维护 originLeaf父结点的偏移数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="235" y="520" width="165" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yC8EA-d1KbzV76l94_GZ-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yC8EA-d1KbzV76l94_GZ-43" target="yC8EA-d1KbzV76l94_GZ-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yC8EA-d1KbzV76l94_GZ-43" value="维护搜索路径上所有内部结点" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="235" y="580" width="165" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yC8EA-d1KbzV76l94_GZ-44" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="272.5" y="650" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yC8EA-d1KbzV76l94_GZ-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yC8EA-d1KbzV76l94_GZ-62" target="yC8EA-d1KbzV76l94_GZ-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yC8EA-d1KbzV76l94_GZ-62" value="将originLeaf分裂为两个结点" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="140" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
