@@ -307,16 +307,20 @@ ThreadLocalRandom.current().ints(5, 0, 100).forEach(System.out::println);
 
 2. 异步处理
 
-> 代码见： 
+> 代码见： AsynchronousTest.java
 
 3. 框架设计
+   - 半成品软件，帮助开发者快速构建应用程序
+   - 框架提供的都是**固定不变的、已知的、可以重用的**代码
+   - 而那些每个**应用不同的业务逻辑，变化的、未知的**部分，则在框架外由开发者自己实现
+   - 函数对象用来传递这种可变的部分
 
-> 代码见： 
+> 代码见： FrameWorkTest.java 【方法引用的偏门用法：根据反射得到方法实现类】
 
 4. 并行计算
 
-> 代码见： 
+> 代码见： ParallelTest.java
 
 5. UI设计
 
-> 代码见： 
+> 代码见： UiTest.java
