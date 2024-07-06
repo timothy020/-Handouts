@@ -178,3 +178,87 @@ public class FunctionalPro {
 - 将通用、复杂的逻辑隐含在**高阶函数**
 - 内将易变、未定的逻辑放在外部的**函数对象**中
 
+实现简单流：
+
+> 代码见：SimpleStream.java 
+
+
+
+## Stream API
+
+流的特性：一次使用，两类操作（中间操作 lazy，终结操作 eager）
+
+
+
+构建与生成：
+
+```java
+//构建流
+List.stream();
+Arrays.Stream();
+Stream.of(1,2,3);
+//生成流
+IntStream.range(1,10).forEach(System.out::println);
+
+IntStream.iterate(1, x->x+1).limit(10).forEach(System.out::println);
+IntStream.iterate(1, x->x<=9, x->x+1).forEach(System.out::println);
+
+IntStream.generate(()->ThreadLocalRandom.current().nextInt(100)).limite(10).forEach(System.out::println);
+ThreadLocalRandom.current().ints(5, 0, 100).forEach(System.out::println);
+    
+```
+
+流操作：
+
+| 操作         | 写法                                                         |
+| ------------ | ------------------------------------------------------------ |
+| 合并         | Stream.of(s1, s2);                                           |
+| 截取（分页） | skip(n);                                                     |
+|              | limit(n);                                                    |
+| 查找         | filter(Predicate p).findAny();                               |
+|              | filter(Predicate p).findFirst();                             |
+| 判断         | anyMatch(Predicate p);                                       |
+|              | allMatch(Predicate p);                                       |
+|              | noneMatch(Predicate p);                                      |
+| 去重         | distinct()                                                   |
+| 排序         | sorted(Comparator c);                                        |
+| 化简         | reduce(p,x) -> r); <br />reduce(init, (p, x) -> r); <br />reduce(init, (p, x) -> r, (r1, r2) -> r) |
+| 收集         | collect(Supplier<R> supplier,BiConsumer<R, ? super T> accumulator,BiConsumer<R, R> combiner);<br />collect(Collector<? super T, A, R> collector); |
+
+> 代码见： StreamAPI.java
+
+
+
+下游收集器：
+
+| 作用       | 下游收集器                   |
+| ---------- | ---------------------------- |
+| 映射后收集 | mapping(x -> y, dc);         |
+| 计数       | counting();                  |
+| 计算       | summingInt(x -> int);        |
+|            | averageDouble(x -> double);  |
+| 化简       | reducing(init, (p, x) -> r); |
+
+> 代码见： DCollector.java
+
+
+
+基本类型流：
+
+- IntStream
+- LongStream
+- DoubleStream
+
+基本流方法：
+
+| 方法                          | 作用                          |
+| ----------------------------- | ----------------------------- |
+| intstream.mapToobj(int ->obj) | 转换为obj流                   |
+| stream.mapToInt(x -> int)     | obj流转换为基本流             |
+| intstream.boxed()             | 转换为Integer流               |
+| intstream.sum()               | 求和                          |
+| intstream.min()               | 求最小值，返回Optional        |
+| intstream.max()               | 求最大值，返回optional        |
+| intstream.average()           | 求平均值，返回Optional        |
+| intstream.summarystatistics() | 综合count sum min max average |
+
