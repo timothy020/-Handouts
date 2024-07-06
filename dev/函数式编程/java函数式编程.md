@@ -262,3 +262,61 @@ ThreadLocalRandom.current().ints(5, 0, 100).forEach(System.out::println);
 | intstream.average()           | 求平均值，返回Optional        |
 | intstream.summarystatistics() | 综合count sum min max average |
 
+> Stream API汇总见： Stream.html
+
+## 并行流
+
+方法： `.parallel()`
+
+并发收集器组成部分：
+
+![image-20240706111945124](https://raw.githubusercontent.com/timothy020/pic/main/img/image-20240706111945124.png)
+
+| 枚举                                      | 特性             |
+| ----------------------------------------- | ---------------- |
+| Collector.Characteristics.IDENTITY_FINISH | 不需要收尾       |
+| Collector.Characteristics.UNORDERED       | 不需要保证顺序   |
+| Collector.Characteristics.CONCURRENT      | 容器需要支持并发 |
+
+
+
+一般用法：
+
+1. CONCURRENT+UNORDERED+线程安全容器
+2. 默认 + 线程不安全容器
+
+
+
+效率：
+
+- 数据量少时： 单线程收集
+- 数据量多时： 多线程Concurent收集 > 多线程非Concurrent收集
+- 处理基本类型时： 基本流 $\approx$ 普通循环 >> 普通Stream流
+
+
+
+> 代码见： ParallelStream
+
+
+
+## 具体应用
+
+1. 统计分析
+
+> 代码见： AnalysisTest.java
+
+2. 异步处理
+
+> 代码见： 
+
+3. 框架设计
+
+> 代码见： 
+
+4. 并行计算
+
+> 代码见： 
+
+5. UI设计
+
+> 代码见： 
