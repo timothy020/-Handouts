@@ -321,6 +321,44 @@ ThreadLocalRandom.current().ints(5, 0, 100).forEach(System.out::println);
 
 > 代码见： ParallelTest.java
 
-5. UI设计
 
-> 代码见： UiTest.java
+
+## 原理
+
+Lambda和MethodReference本质都是语法糖，会被翻译为类，对象，方法
+
+| 类别            | 方法       | 类，对象                       |
+| --------------- | ---------- | ------------------------------ |
+| Lambda          | 编译器生成 | 运行时创建，内部调用生成的方法 |
+| MethodReference | 已有       | 运行时创建，内部调用生成的方法 |
+
+```java
+// -Djdk.invoke.LambdaMetafactory.dumpProxyClassFiles
+// for (Method method : C01Lambda1.class.getDeclaredMethods()) {
+//     System.out.println(method);
+// }
+public class C01Lambda1 {
+    public static void main(String[] args) throws Throwable {
+        BinaryOperator<Integer> lambda = (a, b) -> a + b;
+        
+
+        
+        System.in.read();
+    }
+    
+    // 类和对象：运行时生成
+    static final class MyLambda implements BinaryOperator<Integer> {
+        private MyLambda() {}
+        @Override
+        public Integer apply(Integer a, Integer b) {
+            return lambda$main$2(a, b);
+        }
+    }
+
+    // 方法：编译时生成
+    private static Integer lambda$main$2(Integer a, Integer b) {
+        return a + b;
+    }
+}
+```
+
