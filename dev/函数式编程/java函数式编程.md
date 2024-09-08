@@ -1,3 +1,5 @@
+[TOC]
+
 ## 基本概念
 
 合格的函数
@@ -165,7 +167,7 @@ public class FunctionalPro {
 
 让接收多个参数的函数转换成一系列接收一个参数的函数（闭包传递前端参数），让函数分步执行
 
-> 代码见：currying.java
+> 代码见：[currying.java](https://github.com/timothy020/-Handouts/blob/master/dev/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/FunctionalProgram/src/main/java/basic/Currying.java)
 
 
 
@@ -180,7 +182,7 @@ public class FunctionalPro {
 
 实现简单流：
 
-> 代码见：SimpleStream.java 
+> 代码见：[SimpleStream.java](https://github.com/timothy020/-Handouts/blob/master/dev/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/FunctionalProgram/src/main/java/basic/SimpleStream.java) 
 
 
 
@@ -225,7 +227,7 @@ ThreadLocalRandom.current().ints(5, 0, 100).forEach(System.out::println);
 | 化简         | reduce(p,x) -> r); <br />reduce(init, (p, x) -> r); <br />reduce(init, (p, x) -> r, (r1, r2) -> r) |
 | 收集         | collect(Supplier<R> supplier,BiConsumer<R, ? super T> accumulator,BiConsumer<R, R> combiner);<br />collect(Collector<? super T, A, R> collector); |
 
-> 代码见： StreamAPI.java
+> 代码见： [StreamAPI.java](https://github.com/timothy020/-Handouts/blob/master/dev/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/FunctionalProgram/src/main/java/basic/StreamAPI.java)
 
 
 
@@ -239,7 +241,7 @@ ThreadLocalRandom.current().ints(5, 0, 100).forEach(System.out::println);
 |            | averageDouble(x -> double);  |
 | 化简       | reducing(init, (p, x) -> r); |
 
-> 代码见： DCollector.java
+> 代码见： [DCollector.java](https://github.com/timothy020/-Handouts/blob/master/dev/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/FunctionalProgram/src/main/java/basic/DCollectors.java)
 
 
 
@@ -270,7 +272,7 @@ ThreadLocalRandom.current().ints(5, 0, 100).forEach(System.out::println);
 
 并发收集器组成部分：
 
-![image-20240706111945124](https://raw.githubusercontent.com/timothy020/pic/main/img/image-20240706111945124.png)
+![image-20240706111945124](https://my-pic.miaops.sbs/2024/09/image-20240706111945124.png)
 
 | 枚举                                      | 特性             |
 | ----------------------------------------- | ---------------- |
@@ -295,7 +297,7 @@ ThreadLocalRandom.current().ints(5, 0, 100).forEach(System.out::println);
 
 
 
-> 代码见： ParallelStream
+> 代码见： [ParallelStream](https://github.com/timothy020/-Handouts/blob/master/dev/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/FunctionalProgram/src/main/java/basic/ParallelStream.java)
 
 
 
@@ -303,11 +305,11 @@ ThreadLocalRandom.current().ints(5, 0, 100).forEach(System.out::println);
 
 1. 统计分析
 
-> 代码见： AnalysisTest.java
+> 代码见： [AnalysisTest.java](https://github.com/timothy020/-Handouts/blob/master/dev/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/FunctionalProgram/src/main/java/apply/AnalysisTest.java)
 
 2. 异步处理
 
-> 代码见： AsynchronousTest.java
+> 代码见： [AsynchronousTest.java](https://github.com/timothy020/-Handouts/blob/master/dev/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/FunctionalProgram/src/main/java/apply/AsynchronousTest.java)
 
 3. 框架设计
    - 半成品软件，帮助开发者快速构建应用程序
@@ -315,11 +317,11 @@ ThreadLocalRandom.current().ints(5, 0, 100).forEach(System.out::println);
    - 而那些每个**应用不同的业务逻辑，变化的、未知的**部分，则在框架外由开发者自己实现
    - 函数对象用来传递这种可变的部分
 
-> 代码见： FrameWorkTest.java 【方法引用的偏门用法：根据反射得到方法实现类】
+> 代码见： [FrameWorkTest.java](https://github.com/timothy020/-Handouts/blob/master/dev/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/FunctionalProgram/src/main/java/apply/FrameWork.java) 【方法引用的偏门用法：根据反射得到方法实现类】
 
 4. 并行计算
 
-> 代码见： ParallelTest.java
+> 代码见： [ParallelTest.java](https://github.com/timothy020/-Handouts/blob/master/dev/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/FunctionalProgram/src/main/java/apply/ParallelTest.java)
 
 
 
@@ -362,3 +364,9 @@ public class C01Lambda1 {
 }
 ```
 
+## 其他
+
+- 练手写的代码：[github地址](https://github.com/timothy020/-Handouts/tree/master/dev/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/FunctionalProgram)
+- 流操作简图
+
+![image-20240908195155454](https://my-pic.miaops.sbs/2024/09/image-20240908195155454.png)

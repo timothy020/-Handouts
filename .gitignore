@@ -1,3 +1,4 @@
 #原型图文件
 *.rp 
 *.tar
+rebuild/
