@@ -274,6 +274,8 @@ ThreadLocalRandom.current().ints(5, 0, 100).forEach(System.out::println);
 
 ![image-20240706111945124](https://my-pic.miaops.sbs/2024/09/image-20240706111945124.png)
 
+
+
 | 枚举                                      | 特性             |
 | ----------------------------------------- | ---------------- |
 | Collector.Characteristics.IDENTITY_FINISH | 不需要收尾       |
