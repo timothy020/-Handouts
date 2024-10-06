@@ -1,6 +1,17 @@
+**git基本命令解释**
+
+![image-20240913110258418](https://my-pic.miaops.sbs/2024/09/image-20240913110258418.png)
+
+- `git restore --staged .`：移除暂存区文件，不影响本地（撤销`git add .` 操作）
+
+- `git add -u`：将删除文件的操作同步到暂存区。将本地的删除同步到版本库（删除本地文件后执行，然后再 `git push`）
+- `git rm [-r] --cached xxx`：将文件或目录从git索引中删除，不影响本地文件。通常配合`.gitignore`来删除不需要git管理的本地文件，如*.idea*，*\*/target*
+
+
+
 **使用git add和commit添加了超过100M的大文件，导致git push报错**
 
-![image-20240819090837141](https://raw.githubusercontent.com/timothy020/pic/main/img/image-20240819090837141.png)
+![image-20240913110224120](https://my-pic.miaops.sbs/2024/09/image-20240913110224120.png)
 
 ```shell
 # 1.取消本次commit(不回退工作区)
@@ -49,12 +60,33 @@ git push
 
 
 
-**git基本命令解释**
+**复制已有分支到新分支开发**
 
-![image-20240819101158905](https://raw.githubusercontent.com/timothy020/pic/main/img/image-20240819101158905.png)
+注：被复制的分支代码(old-dev)，创建新的分支(new-dev)
 
-- `git restore --staged .`：移除暂存区文件，不影响本地（撤销`git add .` 操作）
+```shell
+# 1.切换到被copy的分支（new-dev），并且从远端拉取最新版本
+git checkout old-dev
+git pull
 
-- `git add -u`：将删除文件的操作同步到暂存区。将本地的删除同步到版本库（删除本地文件后执行，然后再 `git push`）
-- `git rm [-r] --cached xxx`：将文件或目录从git索引中删除，不影响本地文件。通常配合`.gitignore`来删除不需要git管理的本地文件，如*.idea*，*\*/target*
+# 2.从当前分支，新建分支
+git checkout -b new-dev
 
+# 3.把新建的分支push到远端
+git push origin new-dev
+
+# 4. 拉取远端分支
+git pull (当前的分支并没有和本地分支关联，根据提示进行下一步)
+
+# 5.关联
+git branch --set-upstream-to=origin/new-dev old-dev
+
+# 6.再次拉取 验证
+git pull
+```
+
+
+
+`new-dev`会有和`old-dev`相同的代码和提交记录，但是之后两个分支独立，**互不影响**，除非在未来把它们**合并**。
+
+![image-20240913111150636](https://my-pic.miaops.sbs/2024/09/image-20240913111150636.png)
