@@ -230,3 +230,93 @@ Tomcat中提供了一个`DefaultServlet`用来返回静态资源。
 ![image-20240918123901239](https://my-pic.miaops.sbs/2024/09/image-20240918123901239.png)
 
 ![image-20240918124020933](https://my-pic.miaops.sbs/2024/09/image-20240918124020933.png)
+
+
+
+### Servlet继承结构
+
+Servlet-GeneticServlet-HttpServlet-自定义的Servlet。
+
+在自定义Servlet中，可以重写*service*方法，也可以只重写*doXXX*方法。
+
+
+
+ ServletContex：属于应用域，单例的，用于在不同Servlet之间做沟通。
+
+
+
+## 请求转发与重定向
+
+### 请求转发
+
+![image-20241007104827852](https://my-pic.miaops.sbs/2024/10/image-20241007104827852.png)
+
+- 对客户端透明
+- 目标资源只能是项目内的资源，不能是外部资源
+- 目标资源可以是servlet动态资源，也可以是html等静态资源
+- 目标资源可以是WEB-INF下的受保护资源，这也是访问受保护资源的唯一方式
+
+```java
+@WebServlet("/servletA")
+public class ServletA extends HttpServlet {
+    @Override
+    protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        System.out.println("ServletA执行了");
+        // 请求转发给ServletB
+        // 1.获得请求转发器
+        RequestDispatcher requestDispatcher = req.getRequestDispatcher("servletB");
+        // 2.做出转发动作
+        requestDispatcher.forward(req, resp);
+
+        // （也可以转发给视图资源）
+        // req.getRequestDispatcher("a.html").forward(req, resp);
+
+        // （转发到 WEB-INF 目录下的资源，访问WEB-INF下受保护资源的唯一访问方式）
+        // req.getRequestDispatcher("WEB_INF/b.html").forward(req, resp);
+
+    }
+}
+```
+
+
+
+### 响应重定向
+
+![image-20241007105250506](https://my-pic.miaops.sbs/2024/10/image-20241007105250506.png)
+
+- 客户端行为，客户端发送多次请求
+- 目标资源可以是外部资源
+- 目标资源可以是servlet动态资源，也可以是html等静态资源
+
+- 目标资源不能是WEB-INF下的受保护资源，这也是访问受保护资源的唯一方式
+
+```java
+@WebServlet("/servlet1")
+public class Servlet1 extends HttpServlet {
+    @Override
+    protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        System.out.println("servlet1运行了");
+
+        // 等价于 resp.setStatus(302); resp.setHeader("location", "servlet2");
+        resp.sendRedirect("servlet2");
+        // 外部资源
+        // resp.sendRedirect("http://baidu.com");
+    }
+}
+```
+
+
+
+
+
+### 总结
+
+|            | 客户端透明 | 内部资源 | WEB-INF | 外部资源 |
+| ---------- | ---------- | -------- | ------- | -------- |
+| 请求转发   | √          | √        | √       | ×        |
+| 响应重定向 | ×          | √        | ×       | √        |
+
+实现页面跳转时，优先使用重定向。
+
+
+
