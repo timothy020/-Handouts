@@ -1,0 +1,211 @@
+2017-05-15 09:25:11,974 [9] INFO : Start listen socket 0.0.0.0:18887 success
+2017-05-15 09:25:26,607 [10] INFO : Client connection accepted. Local Address: 192.168.1.253:18887, Remote Address: 192.168.1.253:1550
+2017-05-15 09:28:22,812 [10] INFO : Start listen socket 0.0.0.0:18887 success
+2017-05-15 09:29:15,270 [11] INFO : Client connection accepted. Local Address: 192.168.1.253:18887, Remote Address: 192.168.1.253:1583
+2017-05-15 09:29:29,023 [6] WARN : Illegal client connection. Local Address: 192.168.1.253:18887, Remote Address: 192.168.1.253:1583
+2017-05-15 09:29:29,023 [6] INFO : Client connection disconnected. Local Address: 192.168.1.253:18887 Remote Address: 192.168.1.253:1583
+2017-05-15 09:29:29,148 [11] INFO : Client connection accepted. Local Address: 192.168.1.253:18887, Remote Address: 192.168.1.253:1584
+2017-05-15 09:29:29,148 [6] ERROR: IO_Completed  error, message: 未将对象引用设置到对象的实例。
+2017-05-15 09:29:29,148 [6] ERROR:    在 AsyncSocketServer.AsyncSocketServer.ProcessReceive(SocketAsyncEventArgs receiveEventArgs) 位置 e:\001_2016\AsyncSocketServer\AsyncSocketServer\AsyncSocketCore\AsyncSocketServer.cs:行号 177
+   在 AsyncSocketServer.AsyncSocketServer.IO_Completed(Object sender, SocketAsyncEventArgs asyncEventArgs) 位置 e:\001_2016\AsyncSocketServer\AsyncSocketServer\AsyncSocketCore\AsyncSocketServer.cs:行号 141
+2017-05-15 09:31:21,280 [11] INFO : Client connection disconnected. Local Address: 192.168.1.253:18887 Remote Address: 192.168.1.253:1584
+2017-05-15 09:31:22,028 [13] INFO : Client connection accepted. Local Address: 192.168.1.253:18887, Remote Address: 192.168.1.253:1589
+2017-05-15 09:31:35,917 [13] WARN : Illegal client connection. Local Address: 192.168.1.253:18887, Remote Address: 192.168.1.253:1589
+2017-05-15 09:31:35,919 [13] INFO : Client connection disconnected. Local Address: 192.168.1.253:18887 Remote Address: 192.168.1.253:1589
+2017-05-15 09:31:35,929 [11] INFO : Client connection accepted. Local Address: 192.168.1.253:18887, Remote Address: 192.168.1.253:1592
+2017-05-15 09:31:35,936 [13] ERROR: IO_Completed  error, message: 未将对象引用设置到对象的实例。
+2017-05-15 09:31:35,939 [13] ERROR:    在 AsyncSocketServer.AsyncSocketServer.ProcessReceive(SocketAsyncEventArgs receiveEventArgs) 位置 e:\001_2016\AsyncSocketServer\AsyncSocketServer\AsyncSocketCore\AsyncSocketServer.cs:行号 177
+   在 AsyncSocketServer.AsyncSocketServer.IO_Completed(Object sender, SocketAsyncEventArgs asyncEventArgs) 位置 e:\001_2016\AsyncSocketServer\AsyncSocketServer\AsyncSocketCore\AsyncSocketServer.cs:行号 141
+2017-05-15 09:31:41,309 [14] WARN : Illegal client connection. Local Address: 192.168.1.253:18887, Remote Address: 192.168.1.253:1592
+2017-05-15 09:31:41,311 [14] INFO : Client connection disconnected. Local Address: 192.168.1.253:18887 Remote Address: 192.168.1.253:1592
+2017-05-15 09:31:41,319 [11] INFO : Client connection accepted. Local Address: 192.168.1.253:18887, Remote Address: 192.168.1.253:1594
+2017-05-15 09:31:41,327 [14] ERROR: IO_Completed  error, message: 未将对象引用设置到对象的实例。
+2017-05-15 09:31:41,329 [14] ERROR:    在 AsyncSocketServer.AsyncSocketServer.ProcessReceive(SocketAsyncEventArgs receiveEventArgs) 位置 e:\001_2016\AsyncSocketServer\AsyncSocketServer\AsyncSocketCore\AsyncSocketServer.cs:行号 177
+   在 AsyncSocketServer.AsyncSocketServer.IO_Completed(Object sender, SocketAsyncEventArgs asyncEventArgs) 位置 e:\001_2016\AsyncSocketServer\AsyncSocketServer\AsyncSocketCore\AsyncSocketServer.cs:行号 141
+2017-05-15 09:32:53,357 [11] WARN : Illegal client connection. Local Address: 192.168.1.253:18887, Remote Address: 192.168.1.253:1594
+2017-05-15 09:32:53,358 [11] INFO : Client connection disconnected. Local Address: 192.168.1.253:18887 Remote Address: 192.168.1.253:1594
+2017-05-15 09:32:53,366 [11] ERROR: IO_Completed  error, message: 未将对象引用设置到对象的实例。
+2017-05-15 09:32:53,367 [11] ERROR:    在 AsyncSocketServer.AsyncSocketServer.ProcessReceive(SocketAsyncEventArgs receiveEventArgs) 位置 e:\001_2016\AsyncSocketServer\AsyncSocketServer\AsyncSocketCore\AsyncSocketServer.cs:行号 177
+   在 AsyncSocketServer.AsyncSocketServer.IO_Completed(Object sender, SocketAsyncEventArgs asyncEventArgs) 位置 e:\001_2016\AsyncSocketServer\AsyncSocketServer\AsyncSocketCore\AsyncSocketServer.cs:行号 141
+2017-05-15 09:32:59,762 [11] INFO : Client connection accepted. Local Address: 192.168.1.253:18887, Remote Address: 192.168.1.253:1597
+2017-05-15 09:33:05,031 [15] INFO : Building socket invoke element AsyncSocketServer.AsyncSocketInvokeElement.Local Address: 192.168.1.253:18887, Remote Address: 192.168.1.253:1597
+2017-05-15 09:33:05,033 [15] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:07,408 [15] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:08,110 [15] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:08,500 [15] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:08,672 [15] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:13,164 [15] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:13,304 [15] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:13,460 [15] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:13,616 [15] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:13,756 [15] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:13,912 [15] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:14,068 [15] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:14,209 [15] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:14,349 [15] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:14,521 [15] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:14,661 [15] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:14,834 [15] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:14,960 [15] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:15,113 [15] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:15,253 [15] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:15,409 [15] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:15,550 [15] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:15,815 [15] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:15,955 [15] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:16,096 [15] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:16,345 [15] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:16,486 [16] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:16,595 [16] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:16,735 [16] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:16,876 [16] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:17,078 [16] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:17,219 [16] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:17,375 [16] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:17,515 [16] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:17,656 [16] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:17,780 [16] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:17,921 [16] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:18,061 [16] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:18,186 [16] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:18,311 [16] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:18,436 [16] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:18,592 [16] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:33,783 [16] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:34,246 [16] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:34,464 [16] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:34,647 [16] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:34,801 [16] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:35,422 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:35,591 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:35,762 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:35,926 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:36,279 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:36,626 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:36,797 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:36,980 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:37,339 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:37,515 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:37,703 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:37,890 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:38,061 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:38,264 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:45,035 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:45,237 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:45,409 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:45,549 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:45,705 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:46,033 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:46,205 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:46,361 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:46,532 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:46,688 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:46,844 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:46,985 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:47,206 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:47,361 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:47,517 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:47,658 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:47,798 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:47,938 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:48,048 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:48,172 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:48,313 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:48,422 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:48,562 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:48,687 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:48,796 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:49,177 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:49,356 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:49,746 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2
+2017-05-15 09:33:50,261 [17] INFO : ReaderNo: 1 QRState:刷卡开门 
+QRData:http://weixin.qq.com/r/40xOVqPEFv5prec19xnx? 2

@@ -1,0 +1,36 @@
+初始化：
+1）初始化广播搜索回调 NET_CARD_BroadcastSerachDevice(GetBroadcastSerachProcess);
+2）初始化实时监控回调 NET_CARD_RealTimeDataCallback(GetRealtimeDataProcess);
+3）初始化身份证与二维码回调函数 NET_CARD_RealTimeDataCallbackEx(GetRealtimeDataProcessEx);
+
+
+1)设置UDP二维码身份证信息上传服务器IP与端口 NET_CARD_Set_QR_ServerUDPIPAndPort
+2)设置UDP所有记录上传服务器IP与端口 NET_CARD_Set_RecordUpLoad_UDPIPAndPort
+3)开启实时监控 NET_CARD_EnableRealTimeMonitor
+
+  开启实时监控，刷卡记录信息才能上来，但不开实时监控二维码与身份证信息的上传也能上传
+
+
+
+INIT STEP：
+1）Set Broadcast CallBack Function
+   NET_CARD_BroadcastSerachDevice(GetBroadcastSerachProcess);
+2）Set RealTime CallBack Function
+   NET_CARD_RealTimeDataCallback(GetRealtimeDataProcess);
+3）Set IDcard OR QR Code CallBack Function
+   NET_CARD_RealTimeDataCallbackEx(GetRealtimeDataProcessEx);
+
+INIT UDP Server IP and Port
+1)Set QR Recieve Server IP and Port 
+  NET_CARD_Set_QR_ServerUDPIPAndPort
+2)Set Record Event Recieve Server IP and Port
+  NET_CARD_Set_RecordUpLoad_UDPIPAndPort
+3)Start RealTime monitor
+  NET_CARD_EnableRealTimeMonitor
+  Must call the "Start RealTime monitor",and the "Record Event" will be sent to "Record Event Recieve Server IP and Port"
+
+
+
+
+
+

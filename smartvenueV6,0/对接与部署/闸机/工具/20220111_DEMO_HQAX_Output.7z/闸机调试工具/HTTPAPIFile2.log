@@ -1,0 +1,7 @@
+HTTP/1.1 200 
+Server: nginx/1.12.2
+Date: Wed, 01 Nov 2017 01:16:29 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 62
+
+{"ResultCode":"1","Msg":"Success"}

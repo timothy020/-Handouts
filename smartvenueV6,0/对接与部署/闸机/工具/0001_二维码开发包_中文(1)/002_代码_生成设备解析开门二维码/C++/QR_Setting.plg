@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: QR_Setting - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\CAIWIN7X32\AppData\Local\Temp\RSPB6FB.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/OfflineOpen_QR.pdb" /debug /machine:I386 /out:"Debug/OfflineOpen_QR.exe" /pdbtype:sept 
+"F:\compile\DEBUG2\QR_Encode.obj"
+"F:\compile\DEBUG2\QR_Setting.obj"
+"F:\compile\DEBUG2\QR_SettingDlg.obj"
+"F:\compile\DEBUG2\StdAfx.obj"
+"F:\compile\DEBUG2\QR_Setting.res"
+]
+Creating command line "link.exe @C:\Users\CAIWIN7X32\AppData\Local\Temp\RSPB6FB.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+OfflineOpen_QR.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
