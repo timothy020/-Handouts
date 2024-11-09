@@ -1,0 +1,90 @@
+<mxfile host="Electron" modified="2024-09-07T11:18:31.580Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="INNuuL7S8gI3bbpMAJhL" version="24.2.5" type="device">
+  <diagram name="第 1 页" id="dVc_QVJqMjaburVLp6Ck">
+    <mxGraphModel dx="915" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UdsaKbHLAcyQZSa8NZmN-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UdsaKbHLAcyQZSa8NZmN-1" target="UdsaKbHLAcyQZSa8NZmN-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UdsaKbHLAcyQZSa8NZmN-1" value="config" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="364" y="230" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UdsaKbHLAcyQZSa8NZmN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UdsaKbHLAcyQZSa8NZmN-2" target="UdsaKbHLAcyQZSa8NZmN-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UdsaKbHLAcyQZSa8NZmN-5" value="&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:11.3pt;&quot;&gt;PayClientFactory&lt;/pre&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UdsaKbHLAcyQZSa8NZmN-4">
+          <mxGeometry x="-0.1746" y="3" relative="1" as="geometry">
+            <mxPoint x="23" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UdsaKbHLAcyQZSa8NZmN-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UdsaKbHLAcyQZSa8NZmN-2" target="UdsaKbHLAcyQZSa8NZmN-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UdsaKbHLAcyQZSa8NZmN-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UdsaKbHLAcyQZSa8NZmN-2" target="UdsaKbHLAcyQZSa8NZmN-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UdsaKbHLAcyQZSa8NZmN-2" value="channel" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="210" y="80" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UdsaKbHLAcyQZSa8NZmN-3" value="client instance" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="520" y="80" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UdsaKbHLAcyQZSa8NZmN-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UdsaKbHLAcyQZSa8NZmN-8" target="UdsaKbHLAcyQZSa8NZmN-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UdsaKbHLAcyQZSa8NZmN-14" value="反射" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UdsaKbHLAcyQZSa8NZmN-12">
+          <mxGeometry x="0.6976" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UdsaKbHLAcyQZSa8NZmN-8" value="client.class" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="364" y="150" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UdsaKbHLAcyQZSa8NZmN-15" value="&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:11.3pt;&quot;&gt;&lt;span style=&quot;color:#56a8f5;&quot;&gt;createPayClient&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="120" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UdsaKbHLAcyQZSa8NZmN-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UdsaKbHLAcyQZSa8NZmN-18" target="UdsaKbHLAcyQZSa8NZmN-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UdsaKbHLAcyQZSa8NZmN-29" value="委托" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UdsaKbHLAcyQZSa8NZmN-25">
+          <mxGeometry x="0.1111" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UdsaKbHLAcyQZSa8NZmN-18" value="payclient&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;- getId()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;- unifiedOrder()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;- parseOrderNotify()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;- getOrder()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;- unifiedRefund()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;- parseRefundNotify()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;- getRefund()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;- unifiedTransfer()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;- getTransfer()&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="100" y="320" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="UdsaKbHLAcyQZSa8NZmN-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UdsaKbHLAcyQZSa8NZmN-24" target="UdsaKbHLAcyQZSa8NZmN-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UdsaKbHLAcyQZSa8NZmN-30" value="代理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UdsaKbHLAcyQZSa8NZmN-27">
+          <mxGeometry x="-0.4815" y="-3" relative="1" as="geometry">
+            <mxPoint x="7" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UdsaKbHLAcyQZSa8NZmN-24" value="AbstractPayClient" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UdsaKbHLAcyQZSa8NZmN-26" value="xxxPayClient" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UdsaKbHLAcyQZSa8NZmN-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UdsaKbHLAcyQZSa8NZmN-34" target="UdsaKbHLAcyQZSa8NZmN-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UdsaKbHLAcyQZSa8NZmN-34" value="PayClientConfig" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="240" y="570" width="170" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="UdsaKbHLAcyQZSa8NZmN-35" value="xxxClientConfig" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="572.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UdsaKbHLAcyQZSa8NZmN-37" value="我需要做的事情：&lt;br&gt;- Client类：编写代理方法&lt;div&gt;- Config类：填充属性，编写validate方法 √&lt;/div&gt;&lt;div&gt;- ChannelDO类： 创建是带上@class注解&lt;/div&gt;&lt;div&gt;- 添加PayChannelEnum枚举 √&lt;/div&gt;&lt;div&gt;- 初始化的map添加code和client对应关系 √&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="660" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UdsaKbHLAcyQZSa8NZmN-38" value="是否需要多次提交支付请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="175" y="788" width="170" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

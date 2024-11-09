@@ -1,0 +1,29 @@
+App Key：20240614200018015250858452008963019
+App Secret：2f2c48e21340e2873d7e5612eb00674a6574b97e
+
+Token获取：
+https://hcsoxj.cdutcm.edu.cn/open_api/authentication/get_access_token?key=***&secret=***
+
+本专科生基本信息：
+https://hcsoxj.cdutcm.edu.cn/open_api/customization/tgxxsbzksjbxx/full?access_token=31b02c4f-451f-44d0-b911-e21c4a3ee766
+
+研究生基本信息：
+https://hcsoxj.cdutcm.edu.cn/open_api/customization/tgxxsyjsxsjbxx/full?access_token=31b02c4f-451f-44d0-b911-e21c4a3ee766
+
+院系所单位信息：
+https://hcsoxj.cdutcm.edu.cn/open_api/customization/tgxxxyxsdwxx/full?access_token=b204c58d-c4f1-4268-b548-0c36c1ca1e49
+
+研究生专业信息：
+https://hcsoxj.cdutcm.edu.cn/open_api/customization/tgxjxyjszyxx/full?access_token=b204c58d-c4f1-4268-b548-0c36c1ca1e49
+
+本专科生专业基本信息：
+https://hcsoxj.cdutcm.edu.cn/open_api/customization/tgxjxbzkszyjbxx/full?access_token=b204c58d-c4f1-4268-b548-0c36c1ca1e49
+
+本专科生班级基本信息：
+https://hcsoxj.cdutcm.edu.cn/open_api/customization/tgxxsbzksbjjbxx/full?access_token=33bdf81b-908e-4e76-a1a5-101ab0271a82
+
+一卡通账户信息表：
+https://hcsoxj.cdutcm.edu.cn/open_api/customization/tyktyktzhxxb/full?access_token=33bdf81b-908e-4e76-a1a5-101ab0271a82
+
+教职工基本信息：
+https://hcsoxj.cdutcm.edu.cn/open_api/customization/tgxjgjzgjbxx/full?access_token=33bdf81b-908e-4e76-a1a5-101ab0271a82

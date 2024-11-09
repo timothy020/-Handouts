@@ -1,0 +1,9 @@
+E:\001_2016\AsyncSocketServer\AsyncSocketServer\bin\Debug\AsyncSocketServer.exe.config
+E:\001_2016\AsyncSocketServer\AsyncSocketServer\bin\Debug\AsyncSocketServer.exe
+E:\001_2016\AsyncSocketServer\AsyncSocketServer\bin\Debug\AsyncSocketServer.pdb
+E:\001_2016\AsyncSocketServer\AsyncSocketServer\obj\Debug\AsyncSocketServer.exe
+E:\001_2016\AsyncSocketServer\AsyncSocketServer\obj\Debug\AsyncSocketServer.pdb
+E:\001_2016\AsyncSocketServer\AsyncSocketServer\bin\Debug\log4net.dll
+E:\001_2016\AsyncSocketServer\AsyncSocketServer\bin\Debug\log4net.xml
+E:\001_2016\AsyncSocketServer\AsyncSocketServer\bin\Debug\App.config
+E:\001_2016\AsyncSocketServer\AsyncSocketServer\obj\Debug\AsyncSocketServer.csprojResolveAssemblyReference.cache

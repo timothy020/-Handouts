@@ -1,0 +1,4 @@
+// Microsoft Developer Studio generated Help ID include file.
+// Used by Vcard.rc
+//
+#define HIDC_STATIC_EDITTEXT14          0x80660434    // IDD_SDK_DEMO_VC_DIALOG

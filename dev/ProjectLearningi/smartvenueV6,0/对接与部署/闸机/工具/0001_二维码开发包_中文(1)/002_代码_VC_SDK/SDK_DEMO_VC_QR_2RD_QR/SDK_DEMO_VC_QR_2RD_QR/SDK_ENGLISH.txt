@@ -1,0 +1,22 @@
+3.1 SDK call Procedure
+
+(1)INIT SDK
+NET_CARD_InitEx
+(2)realtime callback
+NET_CARD_RealTimeDataCallback
+(3)boardcast search callback
+	NET_CARD_BroadcastSerachDevice
+(4)device orperate function
+1)open the door
+NET_CARD_RemoteOpen
+2)close the door 
+NET_CARD_RemoteClose
+3)time setting
+NET_CARD_SetDeviceTime
+4) server IP and port setting
+NET_CARD_SetServerIPandPort
+5) start realtime monitor
+NET_CARD_EnableRealTimeMonitor
+6) stop realtime monitor
+NET_CARD_DisbleRealTimeMonitor
+

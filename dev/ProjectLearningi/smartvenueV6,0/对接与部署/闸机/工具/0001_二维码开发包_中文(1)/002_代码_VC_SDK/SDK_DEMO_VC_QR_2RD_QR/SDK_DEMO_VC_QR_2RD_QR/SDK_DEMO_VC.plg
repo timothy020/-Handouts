@@ -1,0 +1,29 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SDK_DEMO_VC - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\CAIWIN7X32\AppData\Local\Temp\RSP7DB3.tmp" with contents
+[
+.\Include\DLNetSDK.lib ws2_32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/SDK_DEMO_VC.pdb" /machine:I386 /out:"Debug/SDK_DEMO_VC.exe" 
+"E:\Compile\SDK_RELEASE\DlgEditBatchDownLoadCard.obj"
+"E:\Compile\SDK_RELEASE\DlgEditforViewIP.obj"
+"E:\Compile\SDK_RELEASE\SDK_DEMO_VC.obj"
+"E:\Compile\SDK_RELEASE\SDK_DEMO_VCDlg.obj"
+"E:\Compile\SDK_RELEASE\StdAfx.obj"
+"E:\Compile\SDK_RELEASE\SDK_DEMO_VC.res"
+]
+Creating command line "link.exe @C:\Users\CAIWIN7X32\AppData\Local\Temp\RSP7DB3.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+SDK_DEMO_VC.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

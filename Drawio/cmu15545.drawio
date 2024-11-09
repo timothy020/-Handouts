@@ -1,0 +1,243 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="第 1 页" id="134ABOt0KpK5kzZBFUXa">
+    <mxGraphModel dx="596" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="T_HXhZDFE9HtX3it40g7-29" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#CC0000;" vertex="1" parent="1">
+          <mxGeometry x="237" y="1263" width="63" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="v3ZVvEO4IWWuynkHzYr0-1" value="Query Planning" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" parent="1" vertex="1">
+          <mxGeometry x="220" y="160" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v3ZVvEO4IWWuynkHzYr0-2" value="Operator Execution" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" parent="1" vertex="1">
+          <mxGeometry x="220" y="200" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v3ZVvEO4IWWuynkHzYr0-3" value="Access Method" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" parent="1" vertex="1">
+          <mxGeometry x="220" y="240" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v3ZVvEO4IWWuynkHzYr0-4" value="Buffer Pool Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D4E1F5;" parent="1" vertex="1">
+          <mxGeometry x="220" y="280" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v3ZVvEO4IWWuynkHzYr0-5" value="Disk Manage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1D5E7;" parent="1" vertex="1">
+          <mxGeometry x="220" y="320" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v3ZVvEO4IWWuynkHzYr0-6" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="370" y="160" width="20" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="v3ZVvEO4IWWuynkHzYr0-7" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="370" y="280" width="20" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="v3ZVvEO4IWWuynkHzYr0-8" value="Execution Engine" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="380" y="200" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v3ZVvEO4IWWuynkHzYr0-9" value="Buffer Poll And Disk" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="380" y="300" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v3ZVvEO4IWWuynkHzYr0-10" value="Concurrency Control" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8CECC;" parent="1" vertex="1">
+          <mxGeometry x="410" y="160" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v3ZVvEO4IWWuynkHzYr0-11" value="Recovery" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8CECC;" parent="1" vertex="1">
+          <mxGeometry x="410" y="240" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QPxRWnq4PWrzu4tNTWUX-1" value="File Storage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="227.5" y="395" width="222.5" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="QPxRWnq4PWrzu4tNTWUX-2" value="&lt;span style=&quot;box-sizing: border-box; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; caret-color: rgb(0, 122, 255); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; text-align: left; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Heap File Organization&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="255" y="420" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QPxRWnq4PWrzu4tNTWUX-3" value="&lt;span style=&quot;box-sizing: border-box; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; caret-color: rgb(0, 122, 255); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; text-align: left; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Tree File Organization&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="255" y="440" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QPxRWnq4PWrzu4tNTWUX-4" value="&lt;span style=&quot;caret-color: rgb(0, 122, 255); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;ISAM&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="255" y="460" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QPxRWnq4PWrzu4tNTWUX-5" value="&lt;span style=&quot;caret-color: rgb(0, 122, 255); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Hashing File Organization&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="255" y="480" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QPxRWnq4PWrzu4tNTWUX-6" value="Page Layout" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="285" y="530" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QPxRWnq4PWrzu4tNTWUX-9" value="&lt;span style=&quot;box-sizing: border-box; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; caret-color: rgb(0, 122, 255); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; text-align: left; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Header&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="305" y="560" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QPxRWnq4PWrzu4tNTWUX-10" value="&lt;span style=&quot;box-sizing: border-box; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; caret-color: rgb(0, 122, 255); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; text-align: left; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Data&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="365" y="560" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QPxRWnq4PWrzu4tNTWUX-11" value="Data Storage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="228.75" y="610" width="221.25" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="QPxRWnq4PWrzu4tNTWUX-12" value="Page Directory" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="230" y="530" width="55" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QPxRWnq4PWrzu4tNTWUX-13" value="&lt;span style=&quot;box-sizing: border-box; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; caret-color: rgb(0, 122, 255); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; text-align: left; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Tuple-Oriented Storage&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="253.75" y="630" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QPxRWnq4PWrzu4tNTWUX-14" value="&lt;span style=&quot;box-sizing: border-box; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; caret-color: rgb(0, 122, 255); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; text-align: left; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Log-structured Stora&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; orphans: 2; white-space: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bspan%20style%3D%26quot%3Bbox-sizing%3A%20border-box%3B%20--tw-border-spacing-x%3A%200%3B%20--tw-border-spacing-y%3A%200%3B%20--tw-translate-x%3A%200%3B%20--tw-translate-y%3A%200%3B%20--tw-rotate%3A%200%3B%20--tw-skew-x%3A%200%3B%20--tw-skew-y%3A%200%3B%20--tw-scale-x%3A%201%3B%20--tw-scale-y%3A%201%3B%20--tw-pan-x%3A%20%3B%20--tw-pan-y%3A%20%3B%20--tw-pinch-zoom%3A%20%3B%20--tw-scroll-snap-strictness%3A%20proximity%3B%20--tw-ordinal%3A%20%3B%20--tw-slashed-zero%3A%20%3B%20--tw-numeric-figure%3A%20%3B%20--tw-numeric-spacing%3A%20%3B%20--tw-numeric-fraction%3A%20%3B%20--tw-ring-inset%3A%20%3B%20--tw-ring-offset-width%3A%200px%3B%20--tw-ring-offset-color%3A%20%23fff%3B%20--tw-ring-color%3A%20rgb(59%20130%20246%20%2F%20.5)%3B%20--tw-ring-offset-shadow%3A%200%200%20%230000%3B%20--tw-ring-shadow%3A%200%200%20%230000%3B%20--tw-shadow%3A%200%200%20%230000%3B%20--tw-shadow-colored%3A%200%200%20%230000%3B%20--tw-blur%3A%20%3B%20--tw-brightness%3A%20%3B%20--tw-contrast%3A%20%3B%20--tw-grayscale%3A%20%3B%20--tw-hue-rotate%3A%20%3B%20--tw-invert%3A%20%3B%20--tw-saturate%3A%20%3B%20--tw-sepia%3A%20%3B%20--tw-drop-shadow%3A%20%3B%20--tw-backdrop-blur%3A%20%3B%20--tw-backdrop-brightness%3A%20%3B%20--tw-backdrop-contrast%3A%20%3B%20--tw-backdrop-grayscale%3A%20%3B%20--tw-backdrop-hue-rotate%3A%20%3B%20--tw-backdrop-invert%3A%20%3B%20--tw-backdrop-opacity%3A%20%3B%20--tw-backdrop-saturate%3A%20%3B%20--tw-backdrop-sepia%3A%20%3B%20caret-color%3A%20rgb(0%2C%20122%2C%20255)%3B%20color%3A%20rgb(51%2C%2051%2C%2051)%3B%20font-family%3A%20%26amp%3Bquot%3BOpen%20Sans%26amp%3Bquot%3B%2C%20%26amp%3Bquot%3BClear%20Sans%26amp%3Bquot%3B%2C%20%26amp%3Bquot%3BHelvetica%20Neue%26amp%3Bquot%3B%2C%20Helvetica%2C%20Arial%2C%20%26amp%3Bquot%3BSegoe%20UI%20Emoji%26amp%3Bquot%3B%2C%20sans-serif%3B%20orphans%3A%204%3B%20text-align%3A%20left%3B%20white-space-collapse%3A%20preserve%3B%26quot%3B%26gt%3B%26lt%3Bfont%20style%3D%26quot%3Bfont-size%3A%2012px%3B%26quot%3B%26gt%3BHeap%20File%20Organization%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fspan%26gt%3B%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfillColor%3D%23fff2cc%3BstrokeColor%3D%23d6b656%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22255%22%20y%3D%22420%22%20width%3D%22170%22%20height%3D%2220%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;ge&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="253.75" y="650" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QPxRWnq4PWrzu4tNTWUX-15" value="&lt;span style=&quot;box-sizing: border-box; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; caret-color: rgb(0, 122, 255); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; text-align: left; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Index-organized Stora&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; orphans: 2; white-space: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bspan%20style%3D%26quot%3Bbox-sizing%3A%20border-box%3B%20--tw-border-spacing-x%3A%200%3B%20--tw-border-spacing-y%3A%200%3B%20--tw-translate-x%3A%200%3B%20--tw-translate-y%3A%200%3B%20--tw-rotate%3A%200%3B%20--tw-skew-x%3A%200%3B%20--tw-skew-y%3A%200%3B%20--tw-scale-x%3A%201%3B%20--tw-scale-y%3A%201%3B%20--tw-pan-x%3A%20%3B%20--tw-pan-y%3A%20%3B%20--tw-pinch-zoom%3A%20%3B%20--tw-scroll-snap-strictness%3A%20proximity%3B%20--tw-ordinal%3A%20%3B%20--tw-slashed-zero%3A%20%3B%20--tw-numeric-figure%3A%20%3B%20--tw-numeric-spacing%3A%20%3B%20--tw-numeric-fraction%3A%20%3B%20--tw-ring-inset%3A%20%3B%20--tw-ring-offset-width%3A%200px%3B%20--tw-ring-offset-color%3A%20%23fff%3B%20--tw-ring-color%3A%20rgb(59%20130%20246%20%2F%20.5)%3B%20--tw-ring-offset-shadow%3A%200%200%20%230000%3B%20--tw-ring-shadow%3A%200%200%20%230000%3B%20--tw-shadow%3A%200%200%20%230000%3B%20--tw-shadow-colored%3A%200%200%20%230000%3B%20--tw-blur%3A%20%3B%20--tw-brightness%3A%20%3B%20--tw-contrast%3A%20%3B%20--tw-grayscale%3A%20%3B%20--tw-hue-rotate%3A%20%3B%20--tw-invert%3A%20%3B%20--tw-saturate%3A%20%3B%20--tw-sepia%3A%20%3B%20--tw-drop-shadow%3A%20%3B%20--tw-backdrop-blur%3A%20%3B%20--tw-backdrop-brightness%3A%20%3B%20--tw-backdrop-contrast%3A%20%3B%20--tw-backdrop-grayscale%3A%20%3B%20--tw-backdrop-hue-rotate%3A%20%3B%20--tw-backdrop-invert%3A%20%3B%20--tw-backdrop-opacity%3A%20%3B%20--tw-backdrop-saturate%3A%20%3B%20--tw-backdrop-sepia%3A%20%3B%20caret-color%3A%20rgb(0%2C%20122%2C%20255)%3B%20color%3A%20rgb(51%2C%2051%2C%2051)%3B%20font-family%3A%20%26amp%3Bquot%3BOpen%20Sans%26amp%3Bquot%3B%2C%20%26amp%3Bquot%3BClear%20Sans%26amp%3Bquot%3B%2C%20%26amp%3Bquot%3BHelvetica%20Neue%26amp%3Bquot%3B%2C%20Helvetica%2C%20Arial%2C%20%26amp%3Bquot%3BSegoe%20UI%20Emoji%26amp%3Bquot%3B%2C%20sans-serif%3B%20orphans%3A%204%3B%20text-align%3A%20left%3B%20white-space-collapse%3A%20preserve%3B%26quot%3B%26gt%3B%26lt%3Bfont%20style%3D%26quot%3Bfont-size%3A%2012px%3B%26quot%3B%26gt%3BHeap%20File%20Organization%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fspan%26gt%3B%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfillColor%3D%23fff2cc%3BstrokeColor%3D%23d6b656%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22255%22%20y%3D%22420%22%20width%3D%22170%22%20height%3D%2220%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;ge&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="254.38" y="670" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QPxRWnq4PWrzu4tNTWUX-20" value="Work Load" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#D4E1F5;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="205" y="720" width="355" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="QPxRWnq4PWrzu4tNTWUX-21" value="OLTP" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#D4E1F5;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="215" y="764" width="150" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="QPxRWnq4PWrzu4tNTWUX-22" value="OLAP" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#D4E1F5;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="370" y="759.5" width="170" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="QPxRWnq4PWrzu4tNTWUX-23" value="NSM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6D0DE;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="250" y="790" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QPxRWnq4PWrzu4tNTWUX-24" value="DSM&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22NSM%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22250%22%20y%3D%22790%22%20width%3D%2270%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22NSM%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22250%22%20y%3D%22790%22%20width%3D%2270%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6D0DE;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="380" y="800" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QPxRWnq4PWrzu4tNTWUX-25" value="PAX" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6D0DE;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="460" y="800" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF3333;strokeWidth=2;" edge="1" parent="1" source="T_HXhZDFE9HtX3it40g7-1" target="T_HXhZDFE9HtX3it40g7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-1" value="DBMS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="230" y="920" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#FF3333;" edge="1" parent="1" source="T_HXhZDFE9HtX3it40g7-2" target="T_HXhZDFE9HtX3it40g7-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="1050" />
+              <mxPoint x="400" y="1050" />
+              <mxPoint x="400" y="1145" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-2" value="Filesystem" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1005" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-3" value="OS Page Cache" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="228.75" y="1060" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-4" value="Disk" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="273.75" y="1110" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-5" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.078;exitY=0.083;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="T_HXhZDFE9HtX3it40g7-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="982.0999999999999" as="sourcePoint" />
+            <mxPoint x="410" y="982" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-6" value="&lt;i&gt;User-space&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="145" y="960" width="85" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-9" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" target="T_HXhZDFE9HtX3it40g7-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="982.0999999999999" as="sourcePoint" />
+            <mxPoint x="410" y="982" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-7" value="&lt;i&gt;Kernel-space&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="145" y="980" width="85" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-11" value="&lt;font style=&quot;font-size: 12px;&quot; color=&quot;#ff3333&quot;&gt;&lt;b&gt;read(...)&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="309" y="955" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-13" value="GET RECORD #123" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="239" y="1230" width="141" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-14" value="&lt;font color=&quot;#cc0000&quot;&gt;&amp;lt;ObjectId, PageId, SlotNum&amp;gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="227.5" y="1260" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-19" value="&lt;font color=&quot;#cc0000&quot;&gt;Q1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="205" y="1230" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-20" value="Buffer Pool #1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="193.5" y="1322" width="118.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-22" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="203.5" y="1345" width="98" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-23" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="203.5" y="1380" width="98" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-24" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="203.5" y="1415" width="98" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-25" value="Buffer Pool #2" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="331.5" y="1322" width="118.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-26" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="341.5" y="1345" width="98" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-27" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="341.5" y="1380" width="98" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-28" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="341.5" y="1415" width="98" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-31" value="" style="curved=1;endArrow=classic;html=1;rounded=0;strokeColor=#CC0000;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="269" y="1282" as="sourcePoint" />
+            <mxPoint x="239" y="1322" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="269" y="1312" />
+              <mxPoint x="239" y="1292" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-47" value="GET RECORD #123" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="505.5" y="1230" width="141" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-49" value="&lt;font color=&quot;#cc0000&quot;&gt;Q1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="471.5" y="1230" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-50" value="Buffer Pool #1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1322" width="118.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-51" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1345" width="98" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-52" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1380" width="98" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-53" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1415" width="98" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-54" value="Buffer Pool #2" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="598" y="1322" width="118.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-55" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="608" y="1345" width="98" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-56" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="608" y="1380" width="98" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-57" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="608" y="1415" width="98" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeColor=#CC0000;dashed=1;" edge="1" parent="1" source="T_HXhZDFE9HtX3it40g7-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="1320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="1300" />
+              <mxPoint x="651" y="1300" />
+              <mxPoint x="651" y="1320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-60" value="&lt;font color=&quot;#cc0000&quot;&gt;Hash(123) % n&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="526" y="1260" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-46" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#CC0000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="602" y="1235" width="41.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-62" value="Approach #1 : Object Id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1458" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T_HXhZDFE9HtX3it40g7-63" value="Approach #2 : Hashing" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="511.5" y="1458" width="150" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
