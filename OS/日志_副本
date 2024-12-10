@@ -1,0 +1,28 @@
+![image-20241204103927957](https://my-pic.miaops.sbs/2024/12/image-20241204103927957.png)
+
+- Buffer Pool Policies
+
+  - Steam & No-Steal
+  - Force & No-Force
+
+- Shadowing Pages
+
+  - 返回时机：指针转动
+
+  - No-Steal + Force，冲突处理采用copy
+
+    ![image-20241204104050944](https://my-pic.miaops.sbs/2024/12/image-20241204104050944.png)
+
+  - redo：不需要； undo：不需要
+
+- SQLite： commit之后删除journalfile
+
+  - 返回时机：Journal File罗盘
+  - Steal + No-Force
+  - journal file保证undo，后台处理journal file
+
+  ![image-20241204104302687](https://my-pic.miaops.sbs/2024/12/image-20241204104302687.png)
+
+- Write-Ahead Log：Steal + No-Force
+  - 返回时机：日志落盘 
+  - 成分：Txn, ObjectId, Before Value, After Value
