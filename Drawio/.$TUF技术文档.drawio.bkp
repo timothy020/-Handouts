@@ -1,0 +1,480 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="I_vAI6bezVmmWGP37-cC">
+    <mxGraphModel dx="1168" dy="698" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="vnhe2xDb4gEGWA_eNdFq-149" target="vnhe2xDb4gEGWA_eNdFq-153" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-155" value="拉取/推送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vnhe2xDb4gEGWA_eNdFq-154" vertex="1" connectable="0">
+          <mxGeometry x="0.0615" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-149" value="容器管理软件客户端" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="249" y="684" width="418" height="197" as="geometry" />
+        </mxCell>
+        <mxCell id="KUjtMMlZ2XUVZ9haEhoY-21" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="200" width="460" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="KUjtMMlZ2XUVZ9haEhoY-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KUjtMMlZ2XUVZ9haEhoY-1" target="KUjtMMlZ2XUVZ9haEhoY-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KUjtMMlZ2XUVZ9haEhoY-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KUjtMMlZ2XUVZ9haEhoY-1" target="KUjtMMlZ2XUVZ9haEhoY-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KUjtMMlZ2XUVZ9haEhoY-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.001;entryY=0.203;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="KUjtMMlZ2XUVZ9haEhoY-1" target="KUjtMMlZ2XUVZ9haEhoY-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KUjtMMlZ2XUVZ9haEhoY-1" value="客户端" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff05;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="205" y="160" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KUjtMMlZ2XUVZ9haEhoY-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="KUjtMMlZ2XUVZ9haEhoY-2" target="KUjtMMlZ2XUVZ9haEhoY-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KUjtMMlZ2XUVZ9haEhoY-2" value="服务端" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99ffff;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="160" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KUjtMMlZ2XUVZ9haEhoY-3" value="&lt;p style=&quot;margin: 0pt 0pt 0.0001pt; text-indent: 21pt; text-align: justify;&quot; class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;信任（仓）库与目标文件管理相关功能&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0pt 0pt 0.0001pt; text-indent: 21pt; text-align: justify;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;background-color: rgb(153, 255, 153);&quot;&gt;&lt;font style=&quot;&quot; face=&quot;宋体&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 10.5pt; font-family: 宋体; text-indent: 10pt;&quot;&gt;提供镜像签名认证软件信任（仓）库初始化功能&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0pt 0pt 0.0001pt; text-indent: 21pt; text-align: justify;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;background-color: rgb(153, 255, 153);&quot;&gt;&lt;span style=&quot;font-size: 10.5pt; font-family: 宋体; text-indent: 10pt;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt; font-family: 宋体; text-indent: 10pt;&quot;&gt;提供镜像签名认证软件信任库内容列举功能&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0pt 0pt 0.0001pt; text-indent: 21pt; text-align: justify;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;background-color: rgb(153, 255, 153);&quot;&gt;&lt;span style=&quot;font-size: 10.5pt; font-family: 宋体; text-indent: 10pt;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt; font-family: 宋体; text-indent: 10pt;&quot;&gt;提供镜像签名认证软件信任库对目标文件的增、删、更、查功能&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0pt 0pt 0.0001pt; text-indent: 21pt; text-align: justify;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;background-color: rgb(153, 255, 153);&quot;&gt;&lt;span style=&quot;font-size: 10.5pt; font-family: 宋体; text-indent: 10pt;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: start; text-indent: -9.95pt; font-family: 宋体; font-size: 10.5pt;&quot;&gt;提供快照元数据生成并签名功能&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;font-size: medium; text-align: start; margin-left: 9.95pt; text-indent: -9.95pt;&quot; class=&quot;17&quot;&gt;&lt;span style=&quot;font-family: 宋体; font-size: 10.5pt;&quot;&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="230" width="440" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KUjtMMlZ2XUVZ9haEhoY-4" value="&lt;p style=&quot;margin: 0pt 0pt 0.0001pt; text-indent: 21pt; text-align: justify; font-family: 宋体; font-size: 10.5pt;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; font-size: 10.5pt;&quot;&gt;&lt;font style=&quot;&quot; face=&quot;宋体&quot;&gt;角色与密钥管理相关功能&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background: rgb(255, 255, 0); font-size: 10.5pt;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0pt 0pt 0.0001pt; text-indent: 21pt; text-align: justify; font-family: 宋体; font-size: 10.5pt;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 10.5pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 0);&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0pt 0pt 0.0001pt; text-indent: 10pt; text-align: justify; font-family: 宋体; font-size: 10.5pt;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;background-color: rgb(153, 255, 153);&quot;&gt;&lt;span style=&quot;font-size: 10.5pt;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt; text-indent: 10pt;&quot;&gt;提供本地存储所有密钥列举功能&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0pt 0pt 0.0001pt; text-indent: 10pt; text-align: justify; font-family: 宋体; font-size: 10.5pt;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;background-color: rgb(153, 255, 153);&quot;&gt;&lt;span style=&quot;text-indent: 13.3333px;&quot;&gt;- 提供密钥轮换功能&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt; text-indent: 10pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0pt 0pt 0.0001pt; text-indent: 10pt; text-align: justify; font-family: 宋体; font-size: 10.5pt;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;background-color: rgb(153, 255, 153);&quot;&gt;&lt;b style=&quot;font-size: 10.5pt; text-indent: 10pt;&quot;&gt;-&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;font-size: 10.5pt; text-indent: 10pt;&quot;&gt;提供密钥吊销检查的功能&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;text-indent: 13.3333px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0pt 0pt 0.0001pt; text-indent: 10pt; text-align: justify; font-family: 宋体; font-size: 10.5pt;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 0);&quot;&gt;&lt;span style=&quot;font-size: 10.5pt; text-indent: 10pt;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt; text-indent: 10pt;&quot;&gt;提供新公私钥（Root Key， Target Key）对生成功能&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt; text-indent: 10pt;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0pt 0pt 0.0001pt; text-indent: 10pt; text-align: justify; font-family: 宋体; font-size: 10.5pt;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 0);&quot;&gt;&lt;span style=&quot;font-size: 10.5pt; text-indent: 10pt;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt; text-indent: 10pt;&quot;&gt;提供委托角色（密钥）添加、回收、列举功能&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt; text-indent: 10pt; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0pt 0pt 0.0001pt; text-indent: 10pt; text-align: justify; font-family: 宋体; font-size: 10.5pt;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;background-color: rgb(153, 255, 255);&quot;&gt;&lt;span style=&quot;font-size: 10.5pt; text-indent: 10pt;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;font-size: 10.5pt; text-indent: 10pt;&quot;&gt;提供新公私钥对（Timestamp Key&lt;/b&gt;&lt;b style=&quot;font-size: 10.5pt; text-indent: 10pt;&quot;&gt;、Snapshot Key&lt;/b&gt;&lt;b style=&quot;font-size: 10.5pt; text-indent: 10pt;&quot;&gt;）生成功能&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0pt 0pt 0.0001pt; text-indent: 10pt; text-align: justify; font-family: 宋体; font-size: 10.5pt;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;background-color: rgb(153, 255, 255);&quot;&gt;&lt;span style=&quot;font-size: 10.5pt; text-indent: 10pt;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;font-size: 10.5pt; text-indent: 10pt;&quot;&gt;提供时间戳&lt;/b&gt;&lt;b style=&quot;font-size: 10.5pt; text-indent: 10pt;&quot;&gt;和&lt;/b&gt;&lt;b style=&quot;font-size: 10.5pt; text-indent: 10pt;&quot;&gt;快照元数据签名的功能&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="50" width="440" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="KUjtMMlZ2XUVZ9haEhoY-6" value="&lt;p style=&quot;margin: 0pt 0pt 0.0001pt; text-indent: 10pt; font-family: 宋体; font-size: 10.5pt;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 10.5pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;&quot; face=&quot;宋体&quot;&gt;TUF元数据管理相关功能&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 13.3333px; margin: 0pt 0pt 0.0001pt; font-family: 宋体; font-size: 10.5pt;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;background-color: rgb(153, 255, 255);&quot;&gt;&lt;span style=&quot;font-size: 10.5pt; text-indent: -9.95pt;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt; text-indent: -9.95pt;&quot;&gt;提供元数据存储与更新的功能&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 13.3333px; margin: 0pt 0pt 0.0001pt; font-family: 宋体; font-size: 10.5pt;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 10.5pt; text-indent: 10pt;&quot;&gt;&lt;span style=&quot;background-color: rgb(153, 255, 255);&quot;&gt;- 提供目标文件元数据验证与冲突检测功能，&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(153, 255, 255);&quot;&gt;&lt;span style=&quot;font-size: 10.5pt; text-indent: 10pt;&quot;&gt;支持&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt; text-indent: 10pt;&quot;&gt;对客户端提交的元数据进行格式、签名及版本的验证&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="960" y="342.5" width="340" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="KUjtMMlZ2XUVZ9haEhoY-11" value="&lt;span style=&quot;font-family: 宋体; font-size: 14px;&quot;&gt;容器镜像签名与管理相关功能&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 0);&quot;&gt;&lt;span style=&quot;font-family: 宋体; font-size: 14px;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: 宋体; font-size: 14px; text-indent: 13.3333px;&quot;&gt;提供为镜像创建签名功能&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 0);&quot;&gt;&lt;span style=&quot;font-size: 10.5pt; font-family: 宋体; text-indent: 10pt;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt; font-family: 宋体; text-indent: 10pt;&quot;&gt;提供镜像信任验证开关设定功能&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 0);&quot;&gt;&lt;span style=&quot;font-size: 10.5pt; font-family: 宋体; text-indent: 10pt;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt; font-family: 宋体; text-indent: 10pt;&quot;&gt;提供镜像元数据签名发布功能&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt; font-family: 宋体; text-indent: 10pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 0);&quot;&gt;&lt;span style=&quot;font-size: 10.5pt; font-family: 宋体; text-indent: 10pt;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt; font-family: 宋体; text-indent: 10pt;&quot;&gt;提供查看镜像信任信息功能&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt; font-family: 宋体; text-indent: 10pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 0);&quot;&gt;&lt;span style=&quot;font-size: 10.5pt; font-family: 宋体; text-indent: 10pt;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt; font-family: 宋体; text-indent: 10pt;&quot;&gt;提供撤销指定镜像信任功能&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt; font-family: 宋体; text-indent: 10pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 0);&quot;&gt;&lt;span style=&quot;font-size: 10.5pt; font-family: 宋体; text-indent: 10pt;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt; font-family: 宋体; text-indent: 10pt;&quot;&gt;提供密钥吊销检查的功能，发起吊销请求、生成签名元数据更新&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt; font-family: 宋体; text-indent: 10pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 0);&quot;&gt;&lt;span style=&quot;font-size: 10.5pt; font-family: 宋体; text-indent: 10pt;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt; font-family: 宋体; text-indent: 10pt;&quot;&gt;提供推送镜像时自动签名功能，支持信任链构建，完成签名生成与上传&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt; font-family: 宋体; text-indent: 10pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 0);&quot;&gt;&lt;span style=&quot;font-size: 10.5pt; font-family: 宋体; text-indent: 10pt;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt; font-family: 宋体; text-indent: 10pt;&quot;&gt;提供对拉取的镜像信任验证功能，支持信任链和签名的验证&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt; font-family: 宋体; text-indent: 10pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="330" width="450" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="KUjtMMlZ2XUVZ9haEhoY-15" value="&lt;p style=&quot;margin: 0pt 0pt 0.0001pt; text-indent: 21pt; font-family: 宋体; font-size: 10.5pt;&quot; class=&quot;MsoNormal&quot;&gt;辅助管理功能&lt;/p&gt;&lt;p style=&quot;margin: 0pt 0pt 0.0001pt; text-indent: 21pt; font-family: 宋体; font-size: 10.5pt;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;background-color: rgb(153, 255, 153);&quot;&gt;-&amp;nbsp;&lt;span style=&quot;font-size: 10.5pt; text-indent: 0pt;&quot;&gt;提供镜像签名认证软件服务器设定功能&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0pt 0pt 0.0001pt; text-indent: 21pt; font-family: 宋体; font-size: 10.5pt;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;background-color: rgb(153, 255, 153);&quot;&gt;&lt;span style=&quot;font-size: 10.5pt; text-indent: 0pt;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt; text-indent: 10pt;&quot;&gt;提供本地密钥文件安全存储信息设定功能&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0pt 0pt 0.0001pt; text-indent: 21pt; font-family: 宋体; font-size: 10.5pt;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;background-color: rgb(153, 255, 153);&quot;&gt;&lt;span style=&quot;font-size: 10.5pt; text-indent: 10pt;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt; text-indent: 10pt;&quot;&gt;提供客户端使用帮助信息查看功能&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 0pt; text-indent: 0pt; text-align: justify; font-family: 宋体; font-size: 10.5pt;&quot; class=&quot;MsoListNumber&quot;&gt;&lt;span style=&quot;font-size: 10.5pt;&quot;&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="498" y="452" width="440" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KUjtMMlZ2XUVZ9haEhoY-16" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;通用功能&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(153, 255, 153);&quot;&gt;-&amp;nbsp;&lt;span style=&quot;font-size: 10.5pt; font-family: 宋体; text-align: justify; text-indent: 10pt;&quot;&gt;提供服务端与客户端交互安全通信通道功能&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(153, 255, 153);&quot;&gt;&lt;span style=&quot;font-size: 10.5pt; font-family: 宋体; text-align: justify; text-indent: 10pt;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt; font-family: 宋体; text-align: justify; text-indent: 10pt;&quot;&gt;提供多种算法支持和扩展性的功能&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(153, 255, 153);&quot;&gt;&lt;span style=&quot;font-size: 10.5pt; font-family: 宋体; text-align: justify; text-indent: 10pt;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;font-size: 10.5pt; font-family: 宋体; text-align: justify; text-indent: 10pt;&quot; face=&quot;宋体&quot;&gt;提供&lt;/font&gt;&lt;font style=&quot;font-size: 10.5pt; font-family: 宋体; text-align: justify; text-indent: 10pt;&quot; face=&quot;宋体&quot;&gt;JWS格式的签名封装&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(153, 255, 153);&quot;&gt;&lt;font style=&quot;font-size: 10.5pt; font-family: 宋体; text-align: justify; text-indent: 10pt;&quot; face=&quot;宋体&quot;&gt;-&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 10.5pt; font-family: 宋体; text-align: justify; text-indent: 10pt;&quot;&gt;提供关键数据的备份恢复功能&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(153, 255, 153);&quot;&gt;&lt;span style=&quot;font-size: 10.5pt; font-family: 宋体; text-align: justify; text-indent: 10pt;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt; font-family: 宋体; text-align: justify; text-indent: 10pt;&quot;&gt;提供日志记录的功能&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="336.25" width="440" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KUjtMMlZ2XUVZ9haEhoY-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.997;entryY=0.421;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="KUjtMMlZ2XUVZ9haEhoY-2" target="KUjtMMlZ2XUVZ9haEhoY-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KUjtMMlZ2XUVZ9haEhoY-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.003;entryY=0.203;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="KUjtMMlZ2XUVZ9haEhoY-2" target="KUjtMMlZ2XUVZ9haEhoY-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KUjtMMlZ2XUVZ9haEhoY-46" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: 宋体; font-size: 14px; text-indent: 28px;&quot;&gt;信任仓库与目标文件管理模块&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="434" y="1230.5" width="592" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="KUjtMMlZ2XUVZ9haEhoY-55" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: 宋体; font-size: 14px; text-indent: 28px;&quot;&gt;角色与密钥管理模块&lt;/span&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="436" y="1319.5" width="590" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="KUjtMMlZ2XUVZ9haEhoY-58" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;容器镜像签名与管理模块&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="432" y="1091" width="258" height="135.5" as="geometry" />
+        </mxCell>
+        <mxCell id="KUjtMMlZ2XUVZ9haEhoY-59" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;TUF元数据校验模块&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="769" y="1088" width="258" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-10" value="密钥生成" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="568" y="1348.5" width="77" height="23.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-11" value="密钥列举" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="683" y="1348.5" width="77" height="23.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-12" value="密钥吊销" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="809" y="1346.5" width="77" height="23.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-13" value="密钥轮转" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="568" y="1378.5" width="77" height="23.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-16" value="委托角色生成" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="809" y="1378.5" width="77" height="23.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-24" value="元文件签名" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="683" y="1378.5" width="77" height="23.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-26" value="签名内容列举" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="747" y="1255.5" width="88" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-27" value="信任库内容变更" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="748" y="1284.5" width="87" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-28" value="信任库同步" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="589.5" y="1284.5" width="87.5" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-29" value="镜像签名" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="455" y="1124" width="101" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-30" value="信任验证开关" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="455" y="1192.5" width="101" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-31" value="镜像签名发布" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="561" y="1124" width="101" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-32" value="镜像信任信息管理" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="455" y="1159" width="101" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-33" value="镜像密钥吊销" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="561" y="1159" width="101" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-35" value="自动化签名与验证" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="561" y="1192.5" width="101" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-36" value="完整性校验" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="900" y="1115" width="89" height="23.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-37" value="格式校验" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="808" y="1115" width="88" height="24.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-38" value="签名校验" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="808" y="1142.25" width="89" height="24.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-39" value="版本校验" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="901" y="1143" width="90" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-43" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: 宋体; font-size: 14px; text-indent: 28px;&quot;&gt;通用模块&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="436" y="1409.5" width="590" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-44" value="安全信道通信" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="569.5" y="1429.5" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-45" value="签名认证算法" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="808" y="1429.5" width="77" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-46" value="JWT鉴权" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="682" y="1432.5" width="81" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-47" value="数据备份" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="682" y="1464.5" width="81" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-48" value="日志记录" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="569.5" y="1461.5" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-49" value="配置管理" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="809" y="1461.5" width="75" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-62" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;TUF元数据存储模块&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="769" y="1170.5" width="258" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-63" value="元文件存储" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="808" y="1196" width="88" height="24.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-64" value="密钥存储" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="900" y="1196" width="88" height="24.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-65" value="信任库初始化" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="589" y="1255.5" width="88" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="vnhe2xDb4gEGWA_eNdFq-26" target="vnhe2xDb4gEGWA_eNdFq-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="vnhe2xDb4gEGWA_eNdFq-128" target="vnhe2xDb4gEGWA_eNdFq-138" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-148" value="元文件传输" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vnhe2xDb4gEGWA_eNdFq-147" vertex="1" connectable="0">
+          <mxGeometry x="-0.0714" y="4" relative="1" as="geometry">
+            <mxPoint x="6" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-128" value="签名认证软件客户端" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="382" y="735" width="278" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vnhe2xDb4gEGWA_eNdFq-129" target="vnhe2xDb4gEGWA_eNdFq-150" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-152" value="签名&lt;div&gt;/认证&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vnhe2xDb4gEGWA_eNdFq-151" vertex="1" connectable="0">
+          <mxGeometry x="-0.0526" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-129" value="容器镜像签名与管理模块" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="389" y="758" width="71" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-130" value="信任仓库与目标文件管理模块" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="476" y="794" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-131" value="角色与密钥管理模块" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="478" y="761" width="166" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-132" value="通用模块" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="476" y="829" width="171" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" parent="1" source="vnhe2xDb4gEGWA_eNdFq-138" target="vnhe2xDb4gEGWA_eNdFq-145" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-138" value="签名认证软件服务端" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="772" y="735" width="280" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-139" value="TUF元数据校验模块" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="787" y="763" width="76" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-140" value="信任仓库与目标文件管理模块" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="874" y="794" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-141" value="角色与密钥管理模块" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="876" y="761" width="166" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-142" value="通用模块" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="874" y="829" width="171" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-144" value="TUF元数据存储模块" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="785" y="814" width="80" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-145" value="&lt;div&gt;元文件&lt;/div&gt;数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="822" y="900" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-150" value="本地镜像" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="261" y="758" width="71" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-153" value="远程镜像仓库" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="775" y="669" width="277" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-156" value="密钥数据库&lt;div&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="947" y="900" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="vnhe2xDb4gEGWA_eNdFq-138" target="vnhe2xDb4gEGWA_eNdFq-156" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-159" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="410" y="1039" width="20" height="459" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-160" value="&lt;span style=&quot;text-wrap: wrap;&quot;&gt;签名认证软件客户端&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="329" y="1255.5" width="126" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-161" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1029" y="1040" width="20" height="457" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-162" value="&lt;span style=&quot;text-wrap: wrap;&quot;&gt;签名认证软件服务端&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1005" y="1264" width="126" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-163" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;用户交互命令工具&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="430" y="1038" width="595" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-164" value="命令解析模块" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="559" y="1055" width="101" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-165" value="命令分发模块" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="802" y="1055" width="101" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-225" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vnhe2xDb4gEGWA_eNdFq-166" target="vnhe2xDb4gEGWA_eNdFq-189" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-237" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;entryX=0.001;entryY=0.558;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vnhe2xDb4gEGWA_eNdFq-166" target="vnhe2xDb4gEGWA_eNdFq-167" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="824" y="1945" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-166" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: 宋体; font-size: 14px; text-indent: 28px;&quot;&gt;信任仓库与目标文件管理模块&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="574" y="1889" width="219" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-167" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: 宋体; font-size: 14px; text-indent: 28px;&quot;&gt;角色与密钥管理模块&lt;/span&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="830.75" y="1892" width="298.5" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-221" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vnhe2xDb4gEGWA_eNdFq-168" target="vnhe2xDb4gEGWA_eNdFq-167" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-168" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;容器镜像签名与管理模块&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="569.5" y="1716" width="258" height="135.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-218" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vnhe2xDb4gEGWA_eNdFq-169" target="vnhe2xDb4gEGWA_eNdFq-167" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-229" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="vnhe2xDb4gEGWA_eNdFq-169" target="vnhe2xDb4gEGWA_eNdFq-196" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-169" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;TUF元数据校验模块&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="851" y="1716" width="258" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-170" value="密钥生成" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="848.5" y="1921" width="77" height="23.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-171" value="密钥列举" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="940.5" y="1921" width="77" height="23.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-172" value="密钥吊销" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1032.5" y="1919" width="77" height="23.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-173" value="密钥轮转" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="848.5" y="1951" width="77" height="23.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-174" value="委托角色生成" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1032.5" y="1951" width="77" height="23.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-175" value="元文件签名" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="940.5" y="1951" width="77" height="23.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-176" value="签名内容列举" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="693" y="1929" width="88" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-177" value="信任库内容变更" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="693" y="1961" width="87" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-178" value="信任库同步" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="588" y="1963" width="87.5" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-179" value="镜像签名" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="592.5" y="1749" width="101" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-180" value="信任验证开关" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="592.5" y="1817.5" width="101" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-181" value="镜像签名发布" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="698.5" y="1749" width="101" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-182" value="镜像信任信息管理" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="592.5" y="1784" width="101" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-183" value="镜像密钥吊销" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="698.5" y="1784" width="101" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-184" value="自动化签名与验证" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="698.5" y="1817.5" width="101" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-185" value="完整性校验" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="982" y="1743" width="89" height="23.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-186" value="格式校验" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="890" y="1743" width="88" height="24.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-187" value="签名校验" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="890" y="1770.25" width="89" height="24.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-188" value="版本校验" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="983" y="1771" width="90" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-189" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: 宋体; font-size: 14px; text-indent: 28px;&quot;&gt;通用模块&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="851" y="2015" width="277" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-190" value="安全信道通信" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="858.5" y="2043" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-191" value="签名认证算法" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1039.5" y="2043" width="77" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-192" value="JWT鉴权" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="948.5" y="2043" width="81" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-193" value="数据备份" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="948.5" y="2075" width="81" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-194" value="日志记录" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="858.5" y="2072" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-195" value="配置管理" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1039.5" y="2075" width="75" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-230" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vnhe2xDb4gEGWA_eNdFq-196" target="vnhe2xDb4gEGWA_eNdFq-189" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-196" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;TUF元数据存储模块&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1114.5" y="1817.5" width="258" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-197" value="元文件存储" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1149.5" y="1842" width="88" height="24.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-198" value="密钥存储" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1244.5" y="1842" width="88" height="24.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-199" value="信任库初始化" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="588" y="1929" width="88" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-200" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="vnhe2xDb4gEGWA_eNdFq-176" target="vnhe2xDb4gEGWA_eNdFq-176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-215" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vnhe2xDb4gEGWA_eNdFq-204" target="vnhe2xDb4gEGWA_eNdFq-168" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-216" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vnhe2xDb4gEGWA_eNdFq-204" target="vnhe2xDb4gEGWA_eNdFq-169" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-204" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;用户交互命令工具&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="737" y="1557" width="169" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vnhe2xDb4gEGWA_eNdFq-205" target="vnhe2xDb4gEGWA_eNdFq-206" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-205" value="命令解析模块" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="766" y="1589" width="101" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-206" value="命令分发模块" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="766" y="1631" width="101" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-219" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.539;entryY=0.018;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="699.5" y="1851.5" as="sourcePoint" />
+            <mxPoint x="697.892" y="1891.016" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="698" y="1852" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-227" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.466;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vnhe2xDb4gEGWA_eNdFq-167" target="vnhe2xDb4gEGWA_eNdFq-189" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KT7AgkybPQTPHBw3t61d-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vnhe2xDb4gEGWA_eNdFq-238" target="vnhe2xDb4gEGWA_eNdFq-239">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-238" value="生成新密钥" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="2181" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KT7AgkybPQTPHBw3t61d-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vnhe2xDb4gEGWA_eNdFq-239" target="vnhe2xDb4gEGWA_eNdFq-240">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KT7AgkybPQTPHBw3t61d-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vnhe2xDb4gEGWA_eNdFq-239" target="KT7AgkybPQTPHBw3t61d-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KT7AgkybPQTPHBw3t61d-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vnhe2xDb4gEGWA_eNdFq-239" target="KT7AgkybPQTPHBw3t61d-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-239" value="修改上层元文件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="2290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KT7AgkybPQTPHBw3t61d-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vnhe2xDb4gEGWA_eNdFq-240" target="KT7AgkybPQTPHBw3t61d-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vnhe2xDb4gEGWA_eNdFq-240" value="当前元文件重新签名" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="2398" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KT7AgkybPQTPHBw3t61d-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KT7AgkybPQTPHBw3t61d-3" target="KT7AgkybPQTPHBw3t61d-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KT7AgkybPQTPHBw3t61d-3" value="级联更新其他元文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="2503" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KT7AgkybPQTPHBw3t61d-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="KT7AgkybPQTPHBw3t61d-5" target="KT7AgkybPQTPHBw3t61d-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KT7AgkybPQTPHBw3t61d-5" value="客户端生成delegation密钥" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1054" y="2170" width="149" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="KT7AgkybPQTPHBw3t61d-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="KT7AgkybPQTPHBw3t61d-6" target="KT7AgkybPQTPHBw3t61d-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KT7AgkybPQTPHBw3t61d-6" value="生成delegation.json并用新密钥签名" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1054" y="2266" width="149" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="KT7AgkybPQTPHBw3t61d-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KT7AgkybPQTPHBw3t61d-7" target="KT7AgkybPQTPHBw3t61d-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KT7AgkybPQTPHBw3t61d-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KT7AgkybPQTPHBw3t61d-7" target="KT7AgkybPQTPHBw3t61d-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KT7AgkybPQTPHBw3t61d-7" value="修改上层targets.json" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1054" y="2371" width="149" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="KT7AgkybPQTPHBw3t61d-8" value="添加delegation公钥，用于签名认证" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1245" y="2338" width="149" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="KT7AgkybPQTPHBw3t61d-9" value="添加delegation角色的匹配路径" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1245" y="2432" width="149" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="KT7AgkybPQTPHBw3t61d-15" value="删除旧公钥&lt;div&gt;添加新公钥&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="772" y="2255" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KT7AgkybPQTPHBw3t61d-16" value="重新签名" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="772" y="2324" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KT7AgkybPQTPHBw3t61d-19" value="同步到服务端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="2591" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

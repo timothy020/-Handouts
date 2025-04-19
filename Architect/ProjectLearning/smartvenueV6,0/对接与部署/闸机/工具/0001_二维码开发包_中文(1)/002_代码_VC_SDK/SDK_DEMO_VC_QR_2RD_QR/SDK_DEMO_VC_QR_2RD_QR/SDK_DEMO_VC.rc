@@ -1,0 +1,561 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\SDK_DEMO_VC.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\SDK_DEMO_VC.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 SDK_DEMO_VC"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "SDK_DEMO_VC 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2014",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_SDK_DEMO_VC_DIALOG DIALOGEX 0, 0, 755, 434
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+FONT 10, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "参数保存并退出",IDOK,646,9,102,21
+    EDITTEXT        IDC_EDIT_OLDIP,76,11,70,14,ES_AUTOHSCROLL
+    LTEXT           "原有IP地址:",IDC_STATIC_EDITTEXT2,19,13,49,8
+    EDITTEXT        IDC_EDIT_OLDPORT,76,32,70,14,ES_AUTOHSCROLL
+    LTEXT           "原有端口:",IDC_STATIC_EDITTEXT3,19,34,49,8
+    EDITTEXT        IDC_EDIT_OLDMASK,76,53,70,14,ES_AUTOHSCROLL
+    LTEXT           "原有子网掩码:",IDC_STATIC_EDITTEXT4,19,55,49,8
+    EDITTEXT        IDC_EDIT_OLDGATE,75,74,70,14,ES_AUTOHSCROLL
+    LTEXT           "原有网关:",IDC_STATIC_EDITTEXT5,19,76,49,8
+    EDITTEXT        IDC_EDIT_OLDMAC,75,95,70,14,ES_AUTOHSCROLL
+    LTEXT           "原有MAC:",IDC_STATIC_EDITTEXT6,19,97,49,8
+    EDITTEXT        IDC_EDIT_NEWIP,204,12,70,14,ES_AUTOHSCROLL
+    LTEXT           "修改后IP地址:",IDC_STATIC_EDITTEXT7,151,13,49,8
+    EDITTEXT        IDC_EDIT_NEWPORT,204,32,70,14,ES_AUTOHSCROLL
+    LTEXT           "修改后端口:",IDC_STATIC_EDITTEXT8,151,34,49,8
+    EDITTEXT        IDC_EDIT_NEWMASK,204,53,70,14,ES_AUTOHSCROLL
+    LTEXT           "修改后掩码:",IDC_STATIC_EDITTEXT9,151,56,47,8
+    EDITTEXT        IDC_EDIT_NEWGATE,204,74,70,14,ES_AUTOHSCROLL
+    LTEXT           "修改后网关:",IDC_STATIC_EDITTEXT10,151,77,49,8
+    EDITTEXT        IDC_EDIT_NEWMAC,204,96,70,14,ES_AUTOHSCROLL
+    LTEXT           "修改后MAC:",IDC_STATIC_EDITTEXT11,151,98,49,8
+    PUSHBUTTON      "设置网络参数",IDC_BUTTON1_SETNETWORK,396,52,50,18
+    PUSHBUTTON      "读取网络参数",IDC_BUTTON2,343,52,50,18
+    LTEXT           "本软件通讯IP地址",IDC_STATIC,292,11,61,8
+    EDITTEXT        IDC_EDIT_LOCALPORT,358,30,88,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_NETCARD_COMBO1,358,10,88,105,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "本软件通讯端口",IDC_STATIC,292,32,53,8
+    PUSHBUTTON      "在线检测",IDC_BUTTON3,290,72,50,18
+    PUSHBUTTON      "读取版本信息",IDC_BUTTON4,290,91,50,18
+    PUSHBUTTON      "设备初始化",IDC_BUTTON5,343,91,50,18
+    PUSHBUTTON      "服务器IP与端口",IDC_BUTTON6,455,52,60,18
+    PUSHBUTTON      "读取时间",IDC_BUTTON7,343,72,50,18
+    PUSHBUTTON      "设置时间",IDC_BUTTON8,396,72,50,18
+    PUSHBUTTON      "设备升级",IDC_BUTTON9,396,91,50,18
+    CONTROL         "门1",IDC_DOOR_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,276,134,27,10
+    CONTROL         "门2",IDC_DOOR_CHECK2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,307,134,27,10
+    LTEXT           "开门关编号:",IDC_STATIC_EDITTEXT12,220,134,49,8
+    CONTROL         "门3",IDC_DOOR_CHECK3,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,336,134,27,10
+    CONTROL         "门4",IDC_DOOR_CHECK4,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,367,134,27,10
+    CONTROL         "门1",IDC_DOOR_CHECK5,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,73,163,27,10
+    CONTROL         "门2",IDC_DOOR_CHECK6,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,103,163,27,10
+    LTEXT           "允许开门权限:",IDC_STATIC_EDITTEXT13,18,163,49,8
+    CONTROL         "门3",IDC_DOOR_CHECK7,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,134,163,27,10
+    CONTROL         "门4",IDC_DOOR_CHECK8,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,165,163,27,10
+    CONTROL         "卡",IDC_DOOR_CHECK9,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,73,176,23,10
+    CONTROL         "卡+密码",IDC_DOOR_CHECK10,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,103,176,42,10
+    LTEXT           "开门验证方式:",IDC_STATIC_EDITTEXT14,18,176,49,8
+    EDITTEXT        IDC_EDIT_OPENPASSWORD,110,190,68,14,ES_AUTOHSCROLL
+    LTEXT           "开门密码:",IDC_STATIC,72,193,35,8
+    LTEXT           "通行方式:",IDC_STATIC_EDITTEXT15,19,205,41,8
+    CONTROL         "普通方式（刷卡开门)",IDC_RADIO1,"Button",
+                    BS_AUTORADIOBUTTON,73,206,87,10
+    CONTROL         "双卡方式（刷2张卡开门)",IDC_RADIO2,"Button",
+                    BS_AUTORADIOBUTTON,73,220,98,10
+    CONTROL         "首卡（刷此卡后受首卡限制卡有效)",IDC_RADIO3,"Button",
+                    BS_AUTORADIOBUTTON,73,234,131,10
+    CONTROL         "受首卡限制(刷首卡后才有效)",IDC_RADIO4,"Button",
+                    BS_AUTORADIOBUTTON,73,247,113,10
+    PUSHBUTTON      "周编程",IDC_BUTTON10,7,187,50,14,WS_DISABLED
+    LTEXT           "权限组:",IDC_STATIC_EDITTEXT16,14,224,41,8
+    PUSHBUTTON      "假日编程",IDC_BUTTON11,14,238,50,14,WS_DISABLED
+    LTEXT           "卡片卡号:",IDC_STATIC,18,134,35,8
+    EDITTEXT        IDC_EDIT_CARDSERIES,73,130,68,14,ES_AUTOHSCROLL
+    LTEXT           "截止日期:",IDC_STATIC,18,150,35,8
+    EDITTEXT        IDC_EDIT_ENDDATE,73,145,68,14,ES_AUTOHSCROLL
+    GROUPBOX        "卡片注册",IDC_STATIC,7,116,200,255,BS_CENTER
+    PUSHBUTTON      "注册单卡",IDC_BUTTON12,32,258,50,18
+    PUSHBUTTON      "注销单卡",IDC_BUTTON13,84,258,50,18
+    PUSHBUTTON      "清除所有卡",IDC_BUTTON14,84,277,50,18
+    PUSHBUTTON      "批量下载卡",IDC_BUTTON15,136,277,50,18
+    GROUPBOX        "门操作与门参数设置",IDC_STATIC,211,116,210,255,
+                    BS_CENTER
+    PUSHBUTTON      "远程开门",IDC_BUTTON16,214,155,50,18
+    PUSHBUTTON      "远程关门",IDC_BUTTON17,265,155,50,18
+    PUSHBUTTON      "门常开",IDC_BUTTON18,316,155,50,18
+    PUSHBUTTON      "恢复门状态",IDC_BUTTON19,367,155,50,18
+    PUSHBUTTON      "查询卡信息",IDC_BUTTON20,136,258,50,18
+    PUSHBUTTON      "下载管理员卡",IDC_BUTTON21,32,277,50,18
+    PUSHBUTTON      "设置互锁",IDC_BUTTON22,214,178,50,18
+    COMBOBOX        IDC_COMBO2,267,181,149,123,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "设置锁延时",IDC_BUTTON23,214,200,50,18
+    PUSHBUTTON      "设置锁类型",IDC_BUTTON24,214,223,50,18
+    EDITTEXT        IDC_EDIT_LOCKDELAY,267,202,44,14,ES_AUTOHSCROLL
+    CONTROL         "断电开门锁",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,267,
+                    227,53,10
+    CONTROL         "通电开门锁",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,325,
+                    227,53,10
+    PUSHBUTTON      "报警输出延时",IDC_BUTTON25,214,246,50,18
+    LTEXT           "输出1",IDC_STATIC,270,252,20,8
+    EDITTEXT        IDC_EDIT_OUTDELAY1,293,249,44,14,ES_AUTOHSCROLL
+    LTEXT           "输出2",IDC_STATIC,344,252,20,8
+    EDITTEXT        IDC_EDIT_OUTDELAY2,369,250,44,14,ES_AUTOHSCROLL
+    LTEXT           "输出3",IDC_STATIC,270,269,20,8
+    EDITTEXT        IDC_EDIT_OUTDELAY3,293,267,44,14,ES_AUTOHSCROLL
+    LTEXT           "输出4",IDC_STATIC,344,270,20,8
+    EDITTEXT        IDC_EDIT_OUTDELAY4,369,268,44,14,ES_AUTOHSCROLL
+    CONTROL         "采用通讯协议",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON | 
+                    NOT WS_VISIBLE | WS_DISABLED,683,1,61,10
+    CONTROL         "采用SDK开发包",IDC_RADIO8,"Button",BS_AUTORADIOBUTTON | 
+                    NOT WS_VISIBLE | WS_DISABLED,683,22,65,10
+    PUSHBUTTON      "胁迫输出延时",IDC_BUTTON26,214,324,50,18
+    EDITTEXT        IDC_EDIT_DRUESSOUTDELAY,267,326,44,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "通行密码设置",IDC_BUTTON27,214,287,50,18
+    LTEXT           "密码1",IDC_STATIC,270,291,20,8
+    EDITTEXT        IDC_EDIT_OPENPASS1,293,290,44,14,ES_AUTOHSCROLL
+    LTEXT           "密码2",IDC_STATIC,344,291,20,8
+    EDITTEXT        IDC_EDIT_OPENPASS2,369,289,44,14,ES_AUTOHSCROLL
+    LTEXT           "密码3",IDC_STATIC,270,308,20,8
+    EDITTEXT        IDC_EDIT_OPENPASS3,293,306,44,14,ES_AUTOHSCROLL
+    LTEXT           "密码4",IDC_STATIC,344,309,20,8
+    EDITTEXT        IDC_EDIT_OPENPASS4,369,307,44,14,ES_AUTOHSCROLL
+    CONTROL         "启动门超时报警",IDC_DOOR_CHECK11,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,318,205,69,10
+    PUSHBUTTON      "启动实时监控",IDC_BUTTON28,454,92,60,18
+    PUSHBUTTON      "停止实时监控",IDC_BUTTON29,455,72,60,18
+    PUSHBUTTON      "读取状态",IDC_BUTTON30,214,347,50,18
+    CONTROL         "开",IDC_DOOR_CHECK12,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,268,351,23,10
+    CONTROL         "开",IDC_DOOR_CHECK13,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,303,351,23,10
+    CONTROL         "开",IDC_DOOR_CHECK14,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,339,351,23,10
+    CONTROL         "开",IDC_DOOR_CHECK15,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,377,351,23,10
+    CONTROL         "List1",IDC_CLIENT_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | WS_GROUP | 
+                    WS_TABSTOP,7,373,416,58
+    EDITTEXT        IDC_INFO_EDIT1,424,120,324,205,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | WS_VSCROLL | 
+                    WS_HSCROLL
+    GROUPBOX        "网络参数",IDC_STATIC,7,0,275,115,BS_CENTER
+    PUSHBUTTON      "设备搜索",IDC_BUTTON31_SERACH,290,52,50,18
+    PUSHBUTTON      "胁迫开门密码",IDC_BUTTON31,316,324,50,18
+    EDITTEXT        IDC_EDIT_DRUESSPASS,369,326,44,14,ES_AUTOHSCROLL
+    CONTROL         "启用有效期",IDC_DOOR_CHECK16,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,150,147,53,10
+    PUSHBUTTON      "批量下载1万张卡",IDC_BUTTON32,31,295,69,18
+    PUSHBUTTON      "身份证二维码UDP IP与Port",IDC_BUTTON33,646,52,102,18,
+                    BS_LEFT
+    PUSHBUTTON      "记录上传UDP IP与Port",IDC_BUTTON34,646,72,102,18,
+                    BS_LEFT
+    PUSHBUTTON      "身份证二维码TCP IP与Port",IDC_BUTTON35,646,91,102,18,
+                    BS_LEFT
+    EDITTEXT        IDC_EDIT_LOCALPORT2,531,54,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LOCALPORT3,605,54,35,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LOCALPORT4,531,73,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LOCALPORT5,605,73,35,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LOCALPORT6,531,92,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LOCALPORT7,605,92,35,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "获取所有服务器IP和端口参数",IDC_BUTTON36,646,32,102,18,
+                    BS_LEFT
+    PUSHBUTTON      "语音输出+开门",IDC_BUTTON37,688,332,60,18
+    LTEXT           "语音代码组合:",IDC_STATIC,510,339,50,8
+    EDITTEXT        IDC_EDIT_OUTDELAY5,561,336,75,14,ES_AUTOHSCROLL
+    LTEXT           "",IDC_STATIC_PIC,429,331,73,82,SS_SUNKEN
+    LTEXT           "身份证图片",IDC_STATIC,442,419,38,8
+    PUSHBUTTON      "单张下载500张卡",IDC_BUTTON38,104,295,69,18
+    PUSHBUTTON      "脱机数据采集",IDC_BUTTON31_SERACH2,509,389,50,18
+    PUSHBUTTON      "Button39",IDC_BUTTON39,698,317,50,14,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    PUSHBUTTON      "注册二维码",IDC_BUTTON31_SERACH3,10,332,48,18
+    PUSHBUTTON      "注册1K二维码",IDC_BUTTON31_SERACH4,10,350,48,18
+    EDITTEXT        IDC_EDIT_OUTDELAY6,65,316,112,14,ES_AUTOHSCROLL
+    LTEXT           "二维码字符:",IDC_STATIC_EDITTEXT17,19,319,45,8
+    PUSHBUTTON      "注销二维码",IDC_BUTTON31_SERACH5,58,332,48,18
+    PUSHBUTTON      "清除二维码",IDC_BUTTON31_SERACH6,155,350,48,18
+    PUSHBUTTON      "读二维码卡数",IDC_BUTTON31_SERACH7,155,332,48,18
+    PUSHBUTTON      "查询二维码",IDC_BUTTON31_SERACH8,107,332,48,18,
+                    WS_DISABLED
+    PUSHBUTTON      "注册3K二维码",IDC_BUTTON31_SERACH9,58,350,48,18
+    PUSHBUTTON      "注册6K二维码",IDC_BUTTON31_SERACH10,107,350,48,18
+    PUSHBUTTON      "语音输出",IDC_BUTTON40,641,333,45,18
+    CONTROL         "设置SDK与TCP服务器通讯模式",IDC_DOOR_CHECK17,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,460,31,114,10
+    EDITTEXT        IDC_EDIT_LOCALPORT8,534,13,35,14,ES_AUTOHSCROLL
+    LTEXT           "TCP Server UDP端口",IDC_STATIC,457,16,72,8
+    GROUPBOX        "",IDC_STATIC,452,5,129,40
+    PUSHBUTTON      "设置蓝牙名称",IDC_BUTTON31_SERACH11,689,353,60,18
+    LTEXT           "蓝牙名称(字母或数字):",IDC_STATIC,510,358,80,8
+    EDITTEXT        IDC_EDIT_OUTDELAY7,595,355,90,14,ES_AUTOHSCROLL
+    LTEXT           "蓝牙密码(4位数字):",IDC_STATIC,510,375,69,8
+    EDITTEXT        IDC_EDIT_OUTDELAY8,595,372,90,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "设置蓝牙密码",IDC_BUTTON31_SERACH12,689,372,60,18
+    PUSHBUTTON      "参数保存",IDCANCELSAVE,590,9,50,21
+END
+
+IDD_DIALOG_EDIT1 DIALOG DISCARDABLE  0, 0, 369, 102
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "请输入设备IP地址和端口号"
+FONT 10, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "确认",IDOK,104,66,60,22
+    PUSHBUTTON      "取消",IDCANCEL,215,66,60,22
+    EDITTEXT        IDC_EDIT_DLGEDITIP,63,21,100,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_DLGEDITIP2,215,21,60,14,ES_AUTOHSCROLL
+    LTEXT           "IP地址:",1050,19,24,31,8
+    LTEXT           "端口号:",1051,178,24,30,8
+    CONTROL         "广播搜索",IDC_IPCHECK1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,293,23,46,10
+END
+
+IDD_DIALOG_BATCHLOAD DIALOG DISCARDABLE  0, 0, 487, 265
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,258,207,50,18
+    PUSHBUTTON      "Cancel",IDCANCEL,317,207,50,18
+    LTEXT           "卡号01:",IDC_STATIC,9,16,29,8
+    EDITTEXT        IDC_BATCH_EDIT1,47,13,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号02:",IDC_STATIC,9,34,29,8
+    EDITTEXT        IDC_BATCH_EDIT2,47,31,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号03:",IDC_STATIC,9,52,29,8
+    EDITTEXT        IDC_BATCH_EDIT3,47,49,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号04:",IDC_STATIC,9,70,29,8
+    EDITTEXT        IDC_BATCH_EDIT4,47,67,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号05:",IDC_STATIC,9,89,29,8
+    EDITTEXT        IDC_BATCH_EDIT5,47,86,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号06:",IDC_STATIC,9,107,29,8
+    EDITTEXT        IDC_BATCH_EDIT6,47,104,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号07:",IDC_STATIC,9,126,29,8
+    EDITTEXT        IDC_BATCH_EDIT7,47,123,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号08:",IDC_STATIC,9,144,29,8
+    EDITTEXT        IDC_BATCH_EDIT8,47,140,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号09:",IDC_STATIC,9,163,29,8
+    EDITTEXT        IDC_BATCH_EDIT9,47,160,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号10:",IDC_STATIC,9,181,29,8
+    EDITTEXT        IDC_BATCH_EDIT10,47,177,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号11:",IDC_STATIC,121,16,29,8
+    EDITTEXT        IDC_BATCH_EDIT11,159,13,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号12:",IDC_STATIC,121,34,29,8
+    EDITTEXT        IDC_BATCH_EDIT12,159,31,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号13:",IDC_STATIC,121,53,29,8
+    EDITTEXT        IDC_BATCH_EDIT13,159,49,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号14:",IDC_STATIC,121,70,29,8
+    EDITTEXT        IDC_BATCH_EDIT14,159,67,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号15:",IDC_STATIC,121,89,29,8
+    EDITTEXT        IDC_BATCH_EDIT15,159,86,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号16:",IDC_STATIC,121,107,29,8
+    EDITTEXT        IDC_BATCH_EDIT16,159,104,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号17:",IDC_STATIC,121,126,29,8
+    EDITTEXT        IDC_BATCH_EDIT17,159,123,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号18:",IDC_STATIC,121,144,29,8
+    EDITTEXT        IDC_BATCH_EDIT18,159,141,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号19:",IDC_STATIC,121,163,29,8
+    EDITTEXT        IDC_BATCH_EDIT19,159,160,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号20:",IDC_STATIC,121,181,29,8
+    EDITTEXT        IDC_BATCH_EDIT20,159,177,65,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "自动生成卡号",IDC_BATCH_BUTTON1,173,207,50,18,NOT 
+                    WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "清除卡",IDC_BATCH_BUTTON2,107,207,50,18,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    PUSHBUTTON      "下载所有卡",IDC_BATCH_BUTTON3,33,207,50,18,NOT 
+                    WS_VISIBLE | WS_DISABLED
+    LTEXT           "卡号21:",IDC_STATIC,230,15,29,8
+    EDITTEXT        IDC_BATCH_EDIT21,268,12,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号22:",IDC_STATIC,230,33,29,8
+    EDITTEXT        IDC_BATCH_EDIT22,268,30,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号23:",IDC_STATIC,230,51,29,8
+    EDITTEXT        IDC_BATCH_EDIT23,268,48,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号24:",IDC_STATIC,230,69,29,8
+    EDITTEXT        IDC_BATCH_EDIT24,268,66,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号25:",IDC_STATIC,230,88,29,8
+    EDITTEXT        IDC_BATCH_EDIT25,268,85,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号26:",IDC_STATIC,230,106,29,8
+    EDITTEXT        IDC_BATCH_EDIT26,268,103,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号27:",IDC_STATIC,230,125,29,8
+    EDITTEXT        IDC_BATCH_EDIT27,268,122,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号28:",IDC_STATIC,230,143,29,8
+    EDITTEXT        IDC_BATCH_EDIT28,268,139,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号29:",IDC_STATIC,230,162,29,8
+    EDITTEXT        IDC_BATCH_EDIT29,268,159,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号30:",IDC_STATIC,230,180,29,8
+    EDITTEXT        IDC_BATCH_EDIT30,268,176,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号31:",IDC_STATIC,342,15,29,8
+    EDITTEXT        IDC_BATCH_EDIT31,380,12,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号32:",IDC_STATIC,342,33,29,8
+    EDITTEXT        IDC_BATCH_EDIT32,380,30,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号33:",IDC_STATIC,342,52,29,8
+    EDITTEXT        IDC_BATCH_EDIT33,380,48,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号34:",IDC_STATIC,342,69,29,8
+    EDITTEXT        IDC_BATCH_EDIT34,380,66,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号35:",IDC_STATIC,342,88,29,8
+    EDITTEXT        IDC_BATCH_EDIT35,380,85,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号36:",IDC_STATIC,342,106,29,8
+    EDITTEXT        IDC_BATCH_EDIT36,380,103,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号37:",IDC_STATIC,342,125,29,8
+    EDITTEXT        IDC_BATCH_EDIT37,380,122,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号38:",IDC_STATIC,342,143,29,8
+    EDITTEXT        IDC_BATCH_EDIT38,380,140,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号39:",IDC_STATIC,342,162,29,8
+    EDITTEXT        IDC_BATCH_EDIT39,380,159,65,14,ES_AUTOHSCROLL
+    LTEXT           "卡号40:",IDC_STATIC,342,180,29,8
+    EDITTEXT        IDC_BATCH_EDIT40,380,176,65,14,ES_AUTOHSCROLL
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "SDK_DEMO_VC Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "SDK_DEMO_VC\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2014\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "SDK_DEMO_VC.EXE\0"
+            VALUE "ProductName", "SDK_DEMO_VC 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_SDK_DEMO_VC_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 748
+        BOTTOMMARGIN, 427
+    END
+
+    IDD_DIALOG_BATCHLOAD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 480
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 258
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_SDK_DEMO_VC_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO2, 0x403, 13, 0
+0x4f4e, 0x4920, 0x746e, 0x7265, 0x6f6c, 0x6b63, "\000" 
+    IDC_COMBO2, 0x403, 22, 0
+0x6f44, 0x726f, 0x2c31, 0x6f44, 0x726f, 0x2032, 0x6e49, 0x6574, 0x6c72, 
+0x636f, 0x006b, 
+    IDC_COMBO2, 0x403, 22, 0
+0x6f44, 0x726f, 0x2c31, 0x6f44, 0x726f, 0x2033, 0x6e49, 0x6574, 0x6c72, 
+0x636f, 0x006b, 
+    IDC_COMBO2, 0x403, 22, 0
+0x6f44, 0x726f, 0x2c31, 0x6f44, 0x726f, 0x2034, 0x6e49, 0x6574, 0x6c72, 
+0x636f, 0x006b, 
+    IDC_COMBO2, 0x403, 22, 0
+0x6f44, 0x726f, 0x2c32, 0x6f44, 0x726f, 0x2033, 0x6e49, 0x6574, 0x6c72, 
+0x636f, 0x006b, 
+    IDC_COMBO2, 0x403, 22, 0
+0x6f44, 0x726f, 0x2c32, 0x6f44, 0x726f, 0x2034, 0x6e49, 0x6574, 0x6c72, 
+0x636f, 0x006b, 
+    IDC_COMBO2, 0x403, 22, 0
+0x6f44, 0x726f, 0x2c33, 0x6f44, 0x726f, 0x2034, 0x6e49, 0x6574, 0x6c72, 
+0x636f, 0x006b, 
+    IDC_COMBO2, 0x403, 28, 0
+0x6f44, 0x726f, 0x2c31, 0x6f44, 0x726f, 0x2c32, 0x6f44, 0x726f, 0x2033, 
+0x6e49, 0x6574, 0x6c72, 0x636f, 0x006b, 
+    IDC_COMBO2, 0x403, 28, 0
+0x6f44, 0x726f, 0x2c31, 0x6f44, 0x726f, 0x2c32, 0x6f44, 0x726f, 0x2034, 
+0x6e49, 0x6574, 0x6c72, 0x636f, 0x006b, 
+    IDC_COMBO2, 0x403, 28, 0
+0x6f44, 0x726f, 0x2c31, 0x6f44, 0x726f, 0x2c33, 0x6f44, 0x726f, 0x2034, 
+0x6e49, 0x6574, 0x6c72, 0x636f, 0x006b, 
+    IDC_COMBO2, 0x403, 28, 0
+0x6f44, 0x726f, 0x2c32, 0x6f44, 0x726f, 0x2c33, 0x6f44, 0x726f, 0x2034, 
+0x6e49, 0x6574, 0x6c72, 0x636f, 0x006b, 
+    IDC_COMBO2, 0x403, 34, 0
+0x6f44, 0x726f, 0x2c31, 0x6f44, 0x726f, 0x2c32, 0x6f44, 0x726f, 0x2c33, 
+0x6f44, 0x726f, 0x2034, 0x6e49, 0x6574, 0x6c72, 0x636f, 0x006b, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 SDK_DEMO_VC(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\SDK_DEMO_VC.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

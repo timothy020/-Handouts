@@ -1,0 +1,2 @@
+[Header] 2017-05-12 21:47:15,378 [11] WARN  AsyncSocketServer.Program [(null)]  - Illegal client connection. Local Address: 192.168.1.253:18887, Remote Address: 192.168.1.253:1853
+2017-05-12 21:47:25,174 [9] WARN  AsyncSocketServer.Program [(null)]  - Illegal client connection. Local Address: 192.168.1.253:18887, Remote Address: 192.168.1.253:1861

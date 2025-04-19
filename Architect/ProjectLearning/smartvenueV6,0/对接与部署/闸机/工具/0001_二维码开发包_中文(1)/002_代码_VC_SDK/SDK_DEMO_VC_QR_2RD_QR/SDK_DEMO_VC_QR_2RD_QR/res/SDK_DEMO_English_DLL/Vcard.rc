@@ -1,0 +1,525 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\SDK_DEMO_VC.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\SDK_DEMO_VC.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 SDK_DEMO_VC"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "SDK_DEMO_VC 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2014",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_DIALOG_EDIT1 DIALOG DISCARDABLE  0, 0, 369, 102
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Enter search IP and Port"
+FONT 10, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,104,66,60,22
+    PUSHBUTTON      "Cancel",IDCANCEL,215,66,60,22
+    EDITTEXT        IDC_EDIT_DLGEDITIP,63,21,100,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_DLGEDITIP2,215,21,60,14,ES_AUTOHSCROLL
+    LTEXT           "IP:",1050,19,24,31,8
+    LTEXT           "Port:",1051,178,24,21,8
+    CONTROL         "Boardcast",IDC_IPCHECK1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,293,23,52,10
+END
+
+IDD_DIALOG_BATCHLOAD DIALOG DISCARDABLE  0, 0, 315, 212
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,244,103,50,18
+    PUSHBUTTON      "Cancel",IDCANCEL,244,125,50,18
+    LTEXT           "Card01:",IDC_STATIC,9,16,29,8
+    EDITTEXT        IDC_BATCH_EDIT1,47,13,65,14,ES_AUTOHSCROLL
+    LTEXT           "Card02:",IDC_STATIC,9,34,29,8
+    EDITTEXT        IDC_BATCH_EDIT2,47,31,65,14,ES_AUTOHSCROLL
+    LTEXT           "Card03:",IDC_STATIC,9,52,29,8
+    EDITTEXT        IDC_BATCH_EDIT3,47,49,65,14,ES_AUTOHSCROLL
+    LTEXT           "Card04:",IDC_STATIC,9,70,29,8
+    EDITTEXT        IDC_BATCH_EDIT4,47,67,65,14,ES_AUTOHSCROLL
+    LTEXT           "Card05:",IDC_STATIC,9,89,29,8
+    EDITTEXT        IDC_BATCH_EDIT5,47,86,65,14,ES_AUTOHSCROLL
+    LTEXT           "Card06:",IDC_STATIC,9,107,29,8
+    EDITTEXT        IDC_BATCH_EDIT6,47,104,65,14,ES_AUTOHSCROLL
+    LTEXT           "Card07:",IDC_STATIC,9,126,29,8
+    EDITTEXT        IDC_BATCH_EDIT7,47,123,65,14,ES_AUTOHSCROLL
+    LTEXT           "Card08:",IDC_STATIC,9,144,29,8
+    EDITTEXT        IDC_BATCH_EDIT8,47,140,65,14,ES_AUTOHSCROLL
+    LTEXT           "Card09:",IDC_STATIC,9,163,29,8
+    EDITTEXT        IDC_BATCH_EDIT9,47,160,65,14,ES_AUTOHSCROLL
+    LTEXT           "Card10:",IDC_STATIC,9,181,29,8
+    EDITTEXT        IDC_BATCH_EDIT10,47,177,65,14,ES_AUTOHSCROLL
+    LTEXT           "Card11:",IDC_STATIC,121,16,29,8
+    EDITTEXT        IDC_BATCH_EDIT11,159,13,65,14,ES_AUTOHSCROLL
+    LTEXT           "Card12:",IDC_STATIC,121,34,29,8
+    EDITTEXT        IDC_BATCH_EDIT12,159,31,65,14,ES_AUTOHSCROLL
+    LTEXT           "Card13:",IDC_STATIC,121,53,29,8
+    EDITTEXT        IDC_BATCH_EDIT13,159,49,65,14,ES_AUTOHSCROLL
+    LTEXT           "Card14:",IDC_STATIC,121,70,29,8
+    EDITTEXT        IDC_BATCH_EDIT14,159,67,65,14,ES_AUTOHSCROLL
+    LTEXT           "Card15:",IDC_STATIC,121,89,29,8
+    EDITTEXT        IDC_BATCH_EDIT15,159,86,65,14,ES_AUTOHSCROLL
+    LTEXT           "Card16:",IDC_STATIC,121,107,29,8
+    EDITTEXT        IDC_BATCH_EDIT16,159,104,65,14,ES_AUTOHSCROLL
+    LTEXT           "Card17:",IDC_STATIC,121,126,29,8
+    EDITTEXT        IDC_BATCH_EDIT17,159,123,65,14,ES_AUTOHSCROLL
+    LTEXT           "Card18:",IDC_STATIC,121,144,29,8
+    EDITTEXT        IDC_BATCH_EDIT18,159,141,65,14,ES_AUTOHSCROLL
+    LTEXT           "Card19:",IDC_STATIC,121,163,29,8
+    EDITTEXT        IDC_BATCH_EDIT19,159,160,65,14,ES_AUTOHSCROLL
+    LTEXT           "Card20:",IDC_STATIC,121,181,29,8
+    EDITTEXT        IDC_BATCH_EDIT20,159,177,65,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "自动生成卡号",IDC_BATCH_BUTTON1,242,12,50,18,NOT 
+                    WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "清除卡",IDC_BATCH_BUTTON2,242,34,50,18,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    PUSHBUTTON      "下载所有卡",IDC_BATCH_BUTTON3,243,56,50,18,NOT 
+                    WS_VISIBLE | WS_DISABLED
+END
+
+IDD_SDK_DEMO_VC_DIALOG DIALOGEX 0, 0, 781, 435
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "SDK_DEMO_VC"
+FONT 10, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,458,9,39,14
+    PUSHBUTTON      "Cancel",IDCANCEL,458,30,40,14
+    EDITTEXT        IDC_EDIT_OLDIP,76,11,70,14,ES_AUTOHSCROLL
+    LTEXT           "IP:",IDC_STATIC_EDITTEXT2,19,13,49,8
+    EDITTEXT        IDC_EDIT_OLDPORT,76,32,70,14,ES_AUTOHSCROLL
+    LTEXT           "PORT:",IDC_STATIC_EDITTEXT3,19,34,49,8
+    EDITTEXT        IDC_EDIT_OLDMASK,76,53,70,14,ES_AUTOHSCROLL
+    LTEXT           "MASK:",IDC_STATIC_EDITTEXT4,19,55,49,8
+    EDITTEXT        IDC_EDIT_OLDGATE,75,74,70,14,ES_AUTOHSCROLL
+    LTEXT           "GATE:",IDC_STATIC_EDITTEXT5,19,76,49,8
+    EDITTEXT        IDC_EDIT_OLDMAC,75,95,70,14,ES_AUTOHSCROLL
+    LTEXT           "MAC:",IDC_STATIC_EDITTEXT6,19,97,49,8
+    EDITTEXT        IDC_EDIT_NEWIP,204,12,70,14,ES_AUTOHSCROLL
+    LTEXT           "NEW IP:",IDC_STATIC_EDITTEXT7,151,13,49,8
+    EDITTEXT        IDC_EDIT_NEWPORT,204,32,70,14,ES_AUTOHSCROLL
+    LTEXT           "NEW PORT:",IDC_STATIC_EDITTEXT8,151,34,49,8
+    EDITTEXT        IDC_EDIT_NEWMASK,204,53,70,14,ES_AUTOHSCROLL
+    LTEXT           "NEW MASK:",IDC_STATIC_EDITTEXT9,151,56,47,8
+    EDITTEXT        IDC_EDIT_NEWGATE,204,74,70,14,ES_AUTOHSCROLL
+    LTEXT           "NEW GATE:",IDC_STATIC_EDITTEXT10,151,77,49,8
+    EDITTEXT        IDC_EDIT_NEWMAC,204,96,70,14,ES_AUTOHSCROLL
+    LTEXT           "NEW MAC:",IDC_STATIC_EDITTEXT11,151,98,49,8
+    PUSHBUTTON      "Set Net PRMT",IDC_BUTTON1_SETNETWORK,412,52,60,18
+    PUSHBUTTON      "Get Net PRMT",IDC_BUTTON2,351,52,60,18
+    LTEXT           "software IP:",IDC_STATIC,292,11,49,8
+    EDITTEXT        IDC_EDIT_LOCALPORT,358,30,88,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_NETCARD_COMBO1,358,10,88,30,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "software Port:",IDC_STATIC,292,32,57,8
+    PUSHBUTTON      "Online Detect",IDC_BUTTON3,290,72,60,18
+    PUSHBUTTON      "Get Version",IDC_BUTTON4,290,91,60,18
+    PUSHBUTTON      "Device Init.",IDC_BUTTON5,351,91,60,18
+    PUSHBUTTON      "Setting Server IP and Port",IDC_BUTTON6,628,6,141,18
+    PUSHBUTTON      "Get Time",IDC_BUTTON7,351,72,60,18
+    PUSHBUTTON      "Setting Time",IDC_BUTTON8,412,72,60,18
+    PUSHBUTTON      "Device Update",IDC_BUTTON9,412,91,60,18
+    CONTROL         "Door1",IDC_DOOR_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,281,134,36,10
+    CONTROL         "Door2",IDC_DOOR_CHECK2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,319,134,36,10
+    LTEXT           "Door Num:",IDC_STATIC_EDITTEXT12,235,134,38,8
+    CONTROL         "Door3",IDC_DOOR_CHECK3,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,357,134,36,10
+    CONTROL         "Door4",IDC_DOOR_CHECK4,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,395,134,36,10
+    CONTROL         "door1",IDC_DOOR_CHECK5,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,73,167,36,10
+    CONTROL         "door2",IDC_DOOR_CHECK6,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,111,167,36,10
+    LTEXT           "Permission:",IDC_STATIC_EDITTEXT13,18,167,46,8
+    CONTROL         "door3",IDC_DOOR_CHECK7,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,150,167,36,10
+    CONTROL         "door4",IDC_DOOR_CHECK8,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,186,167,36,10
+    CONTROL         "card",IDC_DOOR_CHECK9,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,73,180,32,10
+    CONTROL         "card+password",IDC_DOOR_CHECK10,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,114,180,68,10
+    LTEXT           "Verify:",IDC_STATIC_EDITTEXT14,18,180,49,8,0,0,
+                    HIDC_STATIC_EDITTEXT14
+    EDITTEXT        IDC_EDIT_OPENPASSWORD,113,193,68,14,ES_AUTOHSCROLL
+    LTEXT           "password:",IDC_STATIC,72,196,37,8
+    LTEXT           "Through Type:",IDC_STATIC_EDITTEXT15,19,207,55,8
+    CONTROL         "Card Open door",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,
+                    73,208,72,10
+    CONTROL         "Dual Card Open door",IDC_RADIO2,"Button",
+                    BS_AUTORADIOBUTTON,73,222,92,10
+    CONTROL         "The first card",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,
+                    73,235,72,10
+    CONTROL         "By the first card limited",IDC_RADIO4,"Button",
+                    BS_AUTORADIOBUTTON,73,249,116,10
+    PUSHBUTTON      "Week Program",IDC_BUTTON10,7,221,65,18,WS_DISABLED
+    LTEXT           "RightsGroup:",IDC_STATIC_EDITTEXT16,19,261,51,8
+    PUSHBUTTON      "Holiday Program",IDC_BUTTON11,7,239,65,18,WS_DISABLED
+    LTEXT           "Card Series:",IDC_STATIC,18,134,49,8
+    EDITTEXT        IDC_EDIT_CARDSERIES,73,130,68,14,ES_AUTOHSCROLL
+    LTEXT           "Expire date:",IDC_STATIC,18,154,49,8
+    EDITTEXT        IDC_EDIT_ENDDATE,73,149,68,14,ES_AUTOHSCROLL
+    GROUPBOX        "Card registration",IDC_STATIC,7,116,215,255,BS_CENTER
+    PUSHBUTTON      "Login a Card",IDC_BUTTON12,13,272,66,18
+    PUSHBUTTON      "Logout a Card",IDC_BUTTON13,81,272,65,18
+    PUSHBUTTON      "Clear all card",IDC_BUTTON14,147,272,65,18
+    PUSHBUTTON      "login Batch Card",IDC_BUTTON15,148,293,65,18
+    GROUPBOX        "Door  operating and parameter settings",IDC_STATIC,226,
+                    116,210,255,BS_CENTER
+    PUSHBUTTON      "Open Door",IDC_BUTTON16,229,155,50,18
+    PUSHBUTTON      "Close Door",IDC_BUTTON17,280,155,50,18
+    PUSHBUTTON      "Always Open",IDC_BUTTON18,331,155,50,18
+    PUSHBUTTON      "Recovery",IDC_BUTTON19,382,155,50,18
+    PUSHBUTTON      "Query a Card",IDC_BUTTON20,13,293,65,18
+    PUSHBUTTON      "Admin.  Card",IDC_BUTTON21,81,293,65,18
+    PUSHBUTTON      "InterLock",IDC_BUTTON22,229,178,55,18
+    COMBOBOX        IDC_COMBO2,287,181,145,123,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Door Delay",IDC_BUTTON23,229,200,55,18
+    PUSHBUTTON      "Lock Type",IDC_BUTTON24,229,223,55,18
+    EDITTEXT        IDC_EDIT_LOCKDELAY,287,202,44,14,ES_AUTOHSCROLL
+    CONTROL         "Power Off Open",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,
+                    288,227,72,10
+    CONTROL         "Power On Open",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,
+                    362,227,68,10
+    PUSHBUTTON      "Output Delay",IDC_BUTTON25,229,246,55,18
+    LTEXT           "OUT1",IDC_STATIC,289,252,17,8
+    EDITTEXT        IDC_EDIT_OUTDELAY1,312,249,44,14,ES_AUTOHSCROLL
+    LTEXT           "OUT2",IDC_STATIC,363,252,17,8
+    EDITTEXT        IDC_EDIT_OUTDELAY2,388,250,44,14,ES_AUTOHSCROLL
+    LTEXT           "OUT3",IDC_STATIC,289,269,17,8
+    EDITTEXT        IDC_EDIT_OUTDELAY3,312,267,44,14,ES_AUTOHSCROLL
+    LTEXT           "OUT4",IDC_STATIC,363,270,17,8
+    EDITTEXT        IDC_EDIT_OUTDELAY4,388,268,44,14,ES_AUTOHSCROLL
+    CONTROL         "Communication protocol",IDC_RADIO7,"Button",
+                    BS_AUTORADIOBUTTON | NOT WS_VISIBLE | WS_DISABLED,357,0,
+                    104,10
+    CONTROL         "SDK development kit",IDC_RADIO8,"Button",
+                    BS_AUTORADIOBUTTON | NOT WS_VISIBLE | WS_DISABLED,357,10,
+                    92,10
+    PUSHBUTTON      "ThreatOutDelay",IDC_BUTTON26,229,324,55,18
+    EDITTEXT        IDC_EDIT_DRUESSOUTDELAY,286,326,44,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Password Open",IDC_BUTTON27,229,287,55,18
+    LTEXT           "PSW1",IDC_STATIC,289,291,17,8
+    EDITTEXT        IDC_EDIT_OPENPASS1,312,290,44,14,ES_AUTOHSCROLL
+    LTEXT           "PSW2",IDC_STATIC,363,291,17,8
+    EDITTEXT        IDC_EDIT_OPENPASS2,388,289,44,14,ES_AUTOHSCROLL
+    LTEXT           "PSW3",IDC_STATIC,289,308,17,8
+    EDITTEXT        IDC_EDIT_OPENPASS3,312,306,44,14,ES_AUTOHSCROLL
+    LTEXT           "PSW4",IDC_STATIC,363,309,17,8
+    EDITTEXT        IDC_EDIT_OPENPASS4,388,307,44,14,ES_AUTOHSCROLL
+    CONTROL         "Door Overtime Alarm",IDC_DOOR_CHECK11,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,336,205,97,10
+    PUSHBUTTON      "Start RealMoniter",IDC_BUTTON28,628,31,70,18
+    PUSHBUTTON      "Stop RealMoniter",IDC_BUTTON29,699,31,70,18
+    PUSHBUTTON      "Get Status",IDC_BUTTON30,229,347,55,18
+    CONTROL         "ON",IDC_DOOR_CHECK12,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,290,351,24,10
+    CONTROL         "ON",IDC_DOOR_CHECK13,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,325,351,24,10
+    CONTROL         "ON",IDC_DOOR_CHECK14,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,360,351,24,10
+    CONTROL         "ON",IDC_DOOR_CHECK15,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,395,351,24,10
+    CONTROL         "List1",IDC_CLIENT_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | WS_GROUP | 
+                    WS_TABSTOP,7,373,436,58
+    EDITTEXT        IDC_INFO_EDIT1,440,120,341,200,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | WS_VSCROLL | 
+                    WS_HSCROLL
+    GROUPBOX        "Network Parameter",IDC_STATIC,7,0,275,115,BS_CENTER
+    PUSHBUTTON      "Search Device",IDC_BUTTON31_SERACH,290,52,60,18
+    PUSHBUTTON      "Threat PSW",IDC_BUTTON31,335,324,50,18
+    EDITTEXT        IDC_EDIT_DRUESSPASS,388,326,44,14,ES_AUTOHSCROLL
+    CONTROL         "Enable Valid",IDC_DOOR_CHECK16,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,143,152,64,10
+    PUSHBUTTON      "Set QR code upload UDP IP&&Port",IDC_BUTTON33,628,52,
+                    140,18,BS_LEFT
+    PUSHBUTTON      "Set Recorder upload UDP IP&&Port",IDC_BUTTON34,628,72,
+                    140,18,BS_LEFT
+    PUSHBUTTON      "Set Management center TCP IP&&Port",IDC_BUTTON35,628,91,
+                    140,18,BS_LEFT
+    EDITTEXT        IDC_EDIT_LOCALPORT2,510,54,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LOCALPORT3,584,54,35,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LOCALPORT4,510,73,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LOCALPORT5,584,73,35,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LOCALPORT6,510,92,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LOCALPORT7,584,92,35,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Get ALL ServerIP & Port PRMT",IDC_BUTTON36,509,31,115,
+                    18,BS_LEFT
+    PUSHBUTTON      "Voice+Open",IDC_BUTTON37,706,331,50,18
+    LTEXT           "Voice Code:",IDC_STATIC,525,332,45,8
+    EDITTEXT        IDC_EDIT_OUTDELAY5,578,330,73,14,ES_AUTOHSCROLL
+    LTEXT           "",IDC_STATIC_PIC,445,331,73,82,SS_SUNKEN
+    LTEXT           "ID Picture",IDC_STATIC,458,420,41,8
+    PUSHBUTTON      "Histroy date Gather",IDC_BUTTON31_SERACH2,526,396,97,18
+    PUSHBUTTON      "Register QR",IDC_BUTTON31_SERACH3,10,332,48,18
+    PUSHBUTTON      "Register1KQR",IDC_BUTTON31_SERACH4,10,350,48,18
+    EDITTEXT        IDC_EDIT_OUTDELAY6,65,316,112,14,ES_AUTOHSCROLL
+    LTEXT           "QR Code:",IDC_STATIC_EDITTEXT17,19,319,45,8
+    PUSHBUTTON      "UnRegister QR",IDC_BUTTON31_SERACH5,58,332,48,18
+    PUSHBUTTON      "Clear ALLQR",IDC_BUTTON31_SERACH6,155,350,48,18
+    PUSHBUTTON      "Read QR Num.",IDC_BUTTON31_SERACH7,155,332,48,18
+    PUSHBUTTON      "Register3KQR",IDC_BUTTON31_SERACH9,58,350,48,18
+    PUSHBUTTON      "Register6KQR",IDC_BUTTON31_SERACH10,107,350,48,18
+    PUSHBUTTON      "Query QR",IDC_BUTTON31_SERACH8,107,332,48,18,
+                    WS_DISABLED
+    PUSHBUTTON      "BlueToothName",IDC_BUTTON31_SERACH11,689,353,60,18
+    LTEXT           "Name:",IDC_STATIC,568,358,21,8
+    EDITTEXT        IDC_EDIT_OUTDELAY7,595,355,90,14,ES_AUTOHSCROLL
+    LTEXT           "Password(4Bit):",IDC_STATIC,534,375,61,8
+    EDITTEXT        IDC_EDIT_OUTDELAY8,595,372,90,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "BlueToothPWD",IDC_BUTTON31_SERACH12,689,372,60,18
+    PUSHBUTTON      "Voice",IDC_BUTTON40,657,329,45,18
+    CONTROL         "SET TCP SERVER",IDC_DOOR_CHECK17,"Button",
+                    BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_DISABLED | 
+                    WS_TABSTOP,503,0,72,10
+    EDITTEXT        IDC_EDIT_LOCALPORT8,583,5,35,14,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE | WS_DISABLED
+    LTEXT           "TCP Server UDP Port",IDC_STATIC,506,8,77,8,NOT 
+                    WS_VISIBLE | WS_DISABLED
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "SDK_DEMO_VC Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "SDK_DEMO_VC\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2014\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "SDK_DEMO_VC.EXE\0"
+            VALUE "ProductName", "SDK_DEMO_VC 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_DIALOG_BATCHLOAD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 308
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 205
+    END
+
+    IDD_SDK_DEMO_VC_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_SDK_DEMO_VC_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO2, 0x403, 13, 0
+0x4f4e, 0x4920, 0x746e, 0x7265, 0x6f6c, 0x6b63, "\000" 
+    IDC_COMBO2, 0x403, 22, 0
+0x6f44, 0x726f, 0x2c31, 0x6f44, 0x726f, 0x2032, 0x6e49, 0x6574, 0x6c72, 
+0x636f, 0x006b, 
+    IDC_COMBO2, 0x403, 22, 0
+0x6f44, 0x726f, 0x2c31, 0x6f44, 0x726f, 0x2033, 0x6e49, 0x6574, 0x6c72, 
+0x636f, 0x006b, 
+    IDC_COMBO2, 0x403, 22, 0
+0x6f44, 0x726f, 0x2c31, 0x6f44, 0x726f, 0x2034, 0x6e49, 0x6574, 0x6c72, 
+0x636f, 0x006b, 
+    IDC_COMBO2, 0x403, 22, 0
+0x6f44, 0x726f, 0x2c32, 0x6f44, 0x726f, 0x2033, 0x6e49, 0x6574, 0x6c72, 
+0x636f, 0x006b, 
+    IDC_COMBO2, 0x403, 22, 0
+0x6f44, 0x726f, 0x2c32, 0x6f44, 0x726f, 0x2034, 0x6e49, 0x6574, 0x6c72, 
+0x636f, 0x006b, 
+    IDC_COMBO2, 0x403, 22, 0
+0x6f44, 0x726f, 0x2c33, 0x6f44, 0x726f, 0x2034, 0x6e49, 0x6574, 0x6c72, 
+0x636f, 0x006b, 
+    IDC_COMBO2, 0x403, 28, 0
+0x6f44, 0x726f, 0x2c31, 0x6f44, 0x726f, 0x2c32, 0x6f44, 0x726f, 0x2033, 
+0x6e49, 0x6574, 0x6c72, 0x636f, 0x006b, 
+    IDC_COMBO2, 0x403, 28, 0
+0x6f44, 0x726f, 0x2c31, 0x6f44, 0x726f, 0x2c32, 0x6f44, 0x726f, 0x2034, 
+0x6e49, 0x6574, 0x6c72, 0x636f, 0x006b, 
+    IDC_COMBO2, 0x403, 28, 0
+0x6f44, 0x726f, 0x2c31, 0x6f44, 0x726f, 0x2c33, 0x6f44, 0x726f, 0x2034, 
+0x6e49, 0x6574, 0x6c72, 0x636f, 0x006b, 
+    IDC_COMBO2, 0x403, 28, 0
+0x6f44, 0x726f, 0x2c32, 0x6f44, 0x726f, 0x2c33, 0x6f44, 0x726f, 0x2034, 
+0x6e49, 0x6574, 0x6c72, 0x636f, 0x006b, 
+    IDC_COMBO2, 0x403, 34, 0
+0x6f44, 0x726f, 0x2c31, 0x6f44, 0x726f, 0x2c32, 0x6f44, 0x726f, 0x2c33, 
+0x6f44, 0x726f, 0x2034, 0x6e49, 0x6574, 0x6c72, 0x636f, 0x006b, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 SDK_DEMO_VC(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\SDK_DEMO_VC.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

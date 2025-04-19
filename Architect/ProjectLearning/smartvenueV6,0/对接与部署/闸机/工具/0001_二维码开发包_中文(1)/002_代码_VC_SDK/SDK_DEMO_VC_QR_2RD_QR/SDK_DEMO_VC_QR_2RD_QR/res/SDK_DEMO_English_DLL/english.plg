@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: english - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x809 /fo"d:\Compile\ENGLISHRelease/Vcard.res" /d "NDEBUG" /d "_AFXDLL" "D:\cai_2014\2014_SDK_DEMO\二维码开发包\二维码开发包2016\VC_SDK\SDK_DEMO_VC_QR_2RD_QR\SDK_DEMO_VC_QR_2RD_QR\res\SDK_DEMO_English_DLL\Vcard.rc"" 
+Creating temporary file "C:\Users\CAIWIN7X32\AppData\Local\Temp\RSP4AD6.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"d:\Compile\ENGLISHRelease/english.pch" /Yu"stdafx.h" /Fo"d:\Compile\ENGLISHRelease/" /Fd"d:\Compile\ENGLISHRelease/" /FD /c 
+"D:\cai_2014\2014_SDK_DEMO\二维码开发包\二维码开发包2016\VC_SDK\SDK_DEMO_VC_QR_2RD_QR\SDK_DEMO_VC_QR_2RD_QR\res\SDK_DEMO_English_DLL\english.cpp"
+]
+Creating command line "cl.exe @C:\Users\CAIWIN7X32\AppData\Local\Temp\RSP4AD6.tmp" 
+Creating temporary file "C:\Users\CAIWIN7X32\AppData\Local\Temp\RSP4AD7.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"d:\Compile\ENGLISHRelease/english.pch" /Yc"stdafx.h" /Fo"d:\Compile\ENGLISHRelease/" /Fd"d:\Compile\ENGLISHRelease/" /FD /c 
+"D:\cai_2014\2014_SDK_DEMO\二维码开发包\二维码开发包2016\VC_SDK\SDK_DEMO_VC_QR_2RD_QR\SDK_DEMO_VC_QR_2RD_QR\res\SDK_DEMO_English_DLL\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\CAIWIN7X32\AppData\Local\Temp\RSP4AD7.tmp" 
+Creating temporary file "C:\Users\CAIWIN7X32\AppData\Local\Temp\RSP4AD8.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/english.pdb" /machine:I386 /def:".\english.def" /out:"Release/english.dll" /implib:"Release/english.lib" 
+"\Compile\ENGLISHRelease\english.obj"
+"\Compile\ENGLISHRelease\StdAfx.obj"
+"\Compile\ENGLISHRelease\Vcard.res"
+]
+Creating command line "link.exe @C:\Users\CAIWIN7X32\AppData\Local\Temp\RSP4AD8.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+english.cpp
+Linking...
+   Creating library Release/english.lib and object Release/english.exp
+
+
+
+<h3>Results</h3>
+english.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,8 @@
+E:\001_2016\AsyncSocketServer\AsyncSocketServer\bin\Release\AsyncSocketServer.exe.config
+E:\001_2016\AsyncSocketServer\AsyncSocketServer\bin\Release\App.config
+E:\001_2016\AsyncSocketServer\AsyncSocketServer\bin\Release\AsyncSocketServer.exe
+E:\001_2016\AsyncSocketServer\AsyncSocketServer\bin\Release\AsyncSocketServer.pdb
+E:\001_2016\AsyncSocketServer\AsyncSocketServer\bin\Release\log4net.dll
+E:\001_2016\AsyncSocketServer\AsyncSocketServer\bin\Release\log4net.xml
+E:\001_2016\AsyncSocketServer\AsyncSocketServer\obj\Release\AsyncSocketServer.exe
+E:\001_2016\AsyncSocketServer\AsyncSocketServer\obj\Release\AsyncSocketServer.pdb

@@ -1,0 +1,8 @@
+2017-05-13 14:10:26,747 [9] DEBUG MyLogger [(null)] <(null)>
+ - Hello
+2017-05-13 14:10:26,816 [9] INFO  MyLogger [(null)] <(null)>
+ - Start Client connection
+2017-05-13 14:10:38,965 [9] DEBUG MyLogger [(null)] <(null)>
+ - Hello
+2017-05-13 14:11:22,174 [9] INFO  MyLogger [(null)] <(null)>
+ - Start Client connection
